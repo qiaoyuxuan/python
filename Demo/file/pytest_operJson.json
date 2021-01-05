@@ -1,0 +1,28 @@
+[
+  {
+    "url": "http://10.130.10.60:5001/steward/getH5JwtToken",
+    "header": {
+      "content-Type": "application/json;charset=utf-8",
+      "token": "",
+      "channel": "WDGJ"
+    },
+    "message": "认证错误"
+  },
+  {
+    "url": "http://10.130.10.60:5001/steward/getH5JwtToken",
+    "header": {
+      "content-Type": "application/json;charset=utf-8",
+      "token": "70f9386c-00c2-4878-8c9e-9222b76b4605"
+    },
+    "message": "success"
+  },
+    {
+    "url": "http://10.130.10.60:5001/steward/getH5JwtToken",
+    "header": {
+      "content-Type": "application/json;charset=utf-8",
+      "token": "70f9386c-00c2-4878-8c9e-9222b76b4605",
+      "channel": "WDGJ"
+    },
+    "message": "success"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "获取登陆token，作为其他接口的请求头",
+    "children" : [ {
+      "name" : "登陆",
+      "uid" : "7be825e1aea06e67",
+      "parentUid" : "0156e3b23e2286598292cec7922c8bea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605691505079,
+        "stop" : 1605691505114,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0156e3b23e2286598292cec7922c8bea"
+  }, {
+    "name" : "查询当前登陆用户所属公司全部无着件",
+    "children" : [ {
+      "name" : "查询本公司无着件",
+      "uid" : "b8fc65a08cf7b8a4",
+      "parentUid" : "e957dfad5fe9e7456dfc8984fbca84a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605691505117,
+        "stop" : 1605691505189,
+        "duration" : 72
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e957dfad5fe9e7456dfc8984fbca84a6"
+  }, {
+    "name" : "无着件上报",
+    "uid" : "aa2a2fb81bbd807e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605691505191,
+      "stop" : 1605691505271,
+      "duration" : 80
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "附加上报无着件",
+    "uid" : "54fd32f5a32de126",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605691505271,
+      "stop" : 1605691505295,
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

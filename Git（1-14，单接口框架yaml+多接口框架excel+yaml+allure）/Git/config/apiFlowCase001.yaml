@@ -1,0 +1,53 @@
+# 获取登陆token
+case_001:
+  {header: {content-Type: 'application/json;charset=utf-8',token: 'bd9f4fbc-b820-4fad-be91-7218717d95c6'}}
+
+# 查询无着件
+case_002:
+  {header: {content-Type: 'application/json;charset=utf-8',token: None,channel: 'WDGJ'},
+   data: {
+     "httpMethod":"post","params": {
+       "claimStatus":"","endReportTime":"1605495830","limit":"20","pageNo":"1","startReportTime":"1604891030","orderNumber":""},
+     "type":"headless.api","url":"/headless/headlessPackageCompany/getHeadlessPageApp"}}
+
+# 上报无着件
+case_003:
+   { header:{content-Type: 'application/json;charset=utf-8',token: None,channel: 'WDGJ'},
+     data: {"headlessType": 2, "findPlace": 0, "outsidePackageId": "8c85cb4e-266c-4823-9fd2-fa03dac41330",
+     "insidePackageId": "8f3643de-3168-4272-b1d5-0a87e34f9980", "linePosition": "1", "singleSurfaceInfo": {
+      "residualWaybillNo": "YT123456**********", "threeCode": "777-888-999-***-***", "senderProvince": "上海",
+      "senderCity": "上海市", "senderArea": "青浦区", "senderAddress": "华徐公路", "senderName": "球球", "senderPhone": "13011112222",
+      "receiverProvince": "安徽省", "receiverCity": "芜湖市", "receiverArea": "镜湖区", "receiverAddress": "潮起", "receiverName": "王艳",
+      "receiverPhone": "18099997777" }, "qty": 1, "weight": 10, "pics": "group1/M00/00/EA/CoIk519xRumIEco_AAWOBso24D4AAAAhQJPzLIABY4e812.jpg",
+     "itemCharacter": "测试", "suspectedStation": { "value": "210045", "name": "上海市静安区静安门" },
+     "picsList": ["group1/M00/00/EA/CoIk519xRpuILF1aAAbYC8VTMC8AAAAhQJI9I8ABtgj775.jpg"],
+     "indexPic": ["group1/M00/00/EA/CoIk519xRumIEco_AAWOBso24D4AAAAhQJPzLIABY4e812.jpg"],
+     "reportTelephone": "13322225555", "outsidePackageColour": "白色", "insidePackageColour": "黄色", "volume": "5*6*7",
+     "tagNumber": "AQ11112222333344", "placeNextStation": {}, "packageNumber": "", "goodsBig": {
+      "name": "测试", "value": "6f91ccd9-7234-478a-a853-0737eeecef1d" },
+     "goodsSmall": { "name": "测试1", "value": "e5e5dff7-e5fa-4c5a-9fd6-ad7ca5645d52" }}}
+
+# 附加上报
+case_004:
+   { header:{content-Type: 'application/json;charset=utf-8',token: None,channel: 'WDGJ'},
+     data:
+       {"outsidePackageId": "841c7f82-3621-47af-9cca-11afe0c24ea6", "insidePackageId": "8f3643de-3168-4272-b1d5-0a87e34f9980",
+        "qty": 1, "weight": 1, "brandName": "华为", "itemCharacter": "测试", "suspectedStation": {},
+        "picsList": ["group1/M00/00/F2/CoIk51-M-0uIFV-AAAXekCszHQIAAADqAFwfDgABd6o803.jpg"], "reportTelephone": "",
+        "outsidePackageColour": "黑", "insidePackageColour": "黄", "volume": "1*4*8",
+        "goodsBig": {"name": "ctt大类A2", "value": "11edc41d-f8eb-41eb-85e1-7fe5769a8d1a" },
+        "goodsSmall": {"name": "ct小类0天", "value": "35ed07eb-5e23-4313-8259-e46e69cec873" },
+        "createUserCode": "00003556", "createUserName": "马云飞","createStationCode": "210045", "createStationName": "上海市静安区静安门",
+        "id": 9808344, "residualWaybillNo": "YT123*************",
+        "threeCode": "000-***-***-***-***", "senderProvince": "北京", "senderCity": "北京市", "senderArea": "东城区", "senderAddress": "天安门",
+        "senderName": "张", "senderPhone": "13300009999", "receiverProvince": "上海", "receiverCity": "上海市", "receiverArea": "青浦区",
+        "receiverAddress": "华徐公路", "receiverName": "李", "receiverPhone": "13388887777", "goodsBigName": "ctt大类A2",
+        "goodsSmallName": "ct小类0天", "goodsBigId": "11edc41d-f8eb-41eb-85e1-7fe5769a8d1a",
+        "goodsSmallId": "35ed07eb-5e23-4313-8259-e46e69cec873", "parentId": 9808344
+       }
+   }
+
+# 查询无着件详情
+case_005:
+   {header:{content-Type: 'application/json;charset=utf-8',token: None,channel: 'WDGJ'},
+    data: {"createTime":"1605495830","id":"9808344"}}

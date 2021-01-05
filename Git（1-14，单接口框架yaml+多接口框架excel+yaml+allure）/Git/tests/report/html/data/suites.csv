@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 18 17:25:05 CST 2020","Wed Nov 18 17:25:05 CST 2020","80","","test_apiFlowCase001","Test_ApiFlowCase001","","","无着件上报","上报无着件"
+"passed","Wed Nov 18 17:25:05 CST 2020","Wed Nov 18 17:25:05 CST 2020","24","","test_apiFlowCase001","Test_ApiFlowCase001","","","附加上报无着件","附加无着件"
+"passed","Wed Nov 18 17:25:05 CST 2020","Wed Nov 18 17:25:05 CST 2020","72","","test_apiFlowCase001","Test_ApiFlowCase001","","","查询本公司无着件","查询本公司无着件"
+"passed","Wed Nov 18 17:25:05 CST 2020","Wed Nov 18 17:25:05 CST 2020","35","","test_apiFlowCase001","Test_ApiFlowCase001","","","登陆","获取登陆token"

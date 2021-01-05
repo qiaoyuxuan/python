@@ -1,0 +1,5 @@
+case_001:
+  code: 0
+  expireTime: '2020-11-27 20:11:26'
+  jwtToken: eyJhbGciOiJIUzI1NiJ9.eyJzdGF0aW9uQ29kZSI6IjIxMDA0NSIsInN0YXRpb25UeXBlIjoiQlJBTkNIIiwiY2hhbm5lbCI6IldER0oiLCJtb2JpbGUiOm51bGwsImlzcyI6IldER0oiLCJzdGF0aW9uTmFtZSI6IuS4iua1t-W4gumdmeWuieWMuumdmeWuiemXqCIsInVzZXJOYW1lIjoi6ams5LqR6aOeIiwiZXhwIjoxNjA2NDgyNjg2LCJ1c2VySWQiOiIwMDAwMzU1NiIsImlhdCI6MTYwNjQ2ODI4Nn0.NIFiQNTOSN3raXL2aLqTAqPMm0qo7nvKZilQY1pLu-Y
+  message: success

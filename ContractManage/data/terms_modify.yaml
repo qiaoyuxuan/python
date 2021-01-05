@@ -1,0 +1,65 @@
+# 条款修改：code为空
+url: http://10.130.131.73/api/contract/basic/terms/modify
+data:
+  code:
+  name: 我是自动化接口修改的名称
+  content: <p>我是自动化接口修改的条款内容</p>
+  parentType: 7f89115659cc47bea558d2415f4e4d2a
+  status: 0
+  type: 62bb40f99c2d4e449584f2c80f62e5d9
+message: 更新失败
+---
+# 条款修改：条款名称为空
+url: http://10.130.131.73/api/contract/basic/terms/modify
+data:
+  code: ${code}
+  name:
+  content: <p>我是自动化接口修改的条款内容</p>
+  parentType: 7f89115659cc47bea558d2415f4e4d2a
+  status: 0
+  type: 62bb40f99c2d4e449584f2c80f62e5d9
+message: ACCESS SUCCESS...
+---
+  # 条款修改：条款内容为空
+  url: http://10.130.131.73/api/contract/basic/terms/modify
+  data:
+    code: ${code}
+    name: 我是自动化接口修改的名称
+    content:
+    parentType: 7f89115659cc47bea558d2415f4e4d2a
+    status: 0
+    type: 62bb40f99c2d4e449584f2c80f62e5d9
+  message: ACCESS SUCCESS...
+---
+# 条款修改：大类内容为空
+url: http://10.130.131.73/api/contract/basic/terms/modify
+data:
+  code: ${code}
+  name: 我是自动化接口修改的名称
+  content: <p>我是自动化接口修改的条款内容</p>
+  parentType:
+  status: 0
+  type: 62bb40f99c2d4e449584f2c80f62e5d9
+message: ACCESS SUCCESS...
+---
+# 条款修改：小类内容为空
+url: http://10.130.131.73/api/contract/basic/terms/modify
+data:
+  code: ${code}
+  name: 我是自动化接口修改的名称
+  content: <p>我是自动化接口修改的条款内容</p>
+  parentType: 7f89115659cc47bea558d2415f4e4d2a
+  status: 0
+  type:
+message: ACCESS SUCCESS...
+---
+# 条款修改：正向数据
+url: http://10.130.131.73/api/contract/basic/terms/modify
+data:
+  code: ${code}
+  name: 我是自动化接口修改的名称
+  content: <p>我是自动化接口修改的条款内容</p>
+  parentType: 7f89115659cc47bea558d2415f4e4d2a
+  status: 0
+  type: 62bb40f99c2d4e449584f2c80f62e5d9
+message: ACCESS SUCCESS...

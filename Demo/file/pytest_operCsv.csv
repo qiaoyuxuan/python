@@ -1,0 +1,4 @@
+url,header,message
+http://10.130.10.60:5001/steward/getH5JwtToken,"{""content-Type"":""application/json;charset=utf-8"",""token"":""70f9386c-00c2-4878-8c9e-9222b76b4605""}",success
+http://10.130.10.60:5001/steward/getH5JwtToken,"{""content-Type"":""application/json;charset=utf-8"",""token"":""abc""}",认证错误
+http://10.130.10.60:5001/steward/getH5JwtToken,{"content-Type":"application/json;charset=utf-8"},认证错误

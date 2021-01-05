@@ -1,0 +1,41 @@
+[ {
+  "uid" : "7be825e1aea06e67",
+  "name" : "登陆",
+  "time" : {
+    "start" : 1605691505079,
+    "stop" : 1605691505114,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8fc65a08cf7b8a4",
+  "name" : "查询本公司无着件",
+  "time" : {
+    "start" : 1605691505117,
+    "stop" : 1605691505189,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa2a2fb81bbd807e",
+  "name" : "无着件上报",
+  "time" : {
+    "start" : 1605691505191,
+    "stop" : 1605691505271,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54fd32f5a32de126",
+  "name" : "附加上报无着件",
+  "time" : {
+    "start" : 1605691505271,
+    "stop" : 1605691505295,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

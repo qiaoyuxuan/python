@@ -1,0 +1,30 @@
+# status：待审核-0、审核通过-1、审核驳回-2
+# 查询（待审核）状态所有条款
+url: http://10.130.131.73/api/contract/basic/terms/queryByPage
+data:
+  "pageNo": 1
+  "pageSize": 10
+  "type": ""
+  "status": 0
+  "code": ""
+message: ACCESS SUCCESS...
+---
+# 查询（审核通过）状态所有条款
+url: http://10.130.131.73/api/contract/basic/terms/queryByPage
+data:
+  "pageNo": 1
+  "pageSize": 10
+  "type": ""
+  "status": 1
+  "code": ""
+message: ACCESS SUCCESS...
+---
+# 查询（审核驳回）状态所有条款
+url: http://10.130.131.73/api/contract/basic/terms/queryByPage
+data:
+  "pageNo": 1
+  "pageSize": 10
+  "type": ""
+  "status": 2
+  "code": ""
+message: ACCESS SUCCESS...

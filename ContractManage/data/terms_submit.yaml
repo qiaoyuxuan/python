@@ -1,0 +1,8 @@
+# 新增条款
+url: http://10.130.131.73/api/contract/basic/terms/submit
+data:
+  "name": "条款测试"
+  "content": "<p>条款内容测试</p>"
+  "type": "507ca9c9e0ef4d98a29b1a7613732461"
+  "parentType": "7f89115659cc47bea558d2415f4e4d2a"
+message: ACCESS SUCCESS...

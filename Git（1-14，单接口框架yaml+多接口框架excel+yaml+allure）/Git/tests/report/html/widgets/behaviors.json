@@ -1,0 +1,26 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "0156e3b23e2286598292cec7922c8bea",
+    "name" : "获取登陆token，作为其他接口的请求头",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e957dfad5fe9e7456dfc8984fbca84a6",
+    "name" : "查询当前登陆用户所属公司全部无着件",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

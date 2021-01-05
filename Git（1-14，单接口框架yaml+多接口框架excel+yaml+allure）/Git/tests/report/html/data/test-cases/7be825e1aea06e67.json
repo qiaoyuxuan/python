@@ -1,0 +1,138 @@
+{
+  "uid" : "7be825e1aea06e67",
+  "name" : "登陆",
+  "fullName" : "test_apiFlowCase001.Test_ApiFlowCase001#test_getToken",
+  "historyId" : "6189881fa39c54003be4faee6f5fe530",
+  "time" : {
+    "start" : 1605691505079,
+    "stop" : 1605691505114,
+    "duration" : 35
+  },
+  "description" : "获取登陆token",
+  "descriptionHtml" : "<p>获取登陆token</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "获取登陆token，作为其他接口的请求头"
+  }, {
+    "name" : "suite",
+    "value" : "test_apiFlowCase001"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ApiFlowCase001"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200929VNUZ"
+  }, {
+    "name" : "thread",
+    "value" : "11268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_apiFlowCase001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fa18f7e78ec1dc31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605691455767,
+        "stop" : 1605691455803,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "158ad3163ef2660c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605691241887,
+        "stop" : 1605691241921,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "4521456a40dfe4a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690498815,
+        "stop" : 1605690498852,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "e8a4775d918f3dce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690357579,
+        "stop" : 1605690357614,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "d86a28bfd8714529",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690279742,
+        "stop" : 1605690279777,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "adba6c3e8477e7c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690099723,
+        "stop" : 1605690099757,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "4114f8b2a601e23e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605689463029,
+        "stop" : 1605689463064,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "88a807eb81bcc516",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605689155356,
+        "stop" : 1605689155392,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "5fa55f313ad62e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605688998152,
+        "stop" : 1605688998186,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "efe7d29bf1700bff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605688808206,
+        "stop" : 1605688808242,
+        "duration" : 36
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7be825e1aea06e67.json",
+  "parameterValues" : [ ]
+}

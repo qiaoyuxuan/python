@@ -1,0 +1,26 @@
+# 正确的token
+url: http://10.130.10.60:5001/steward/getH5JwtToken
+header:
+  content-Type: application/json;charset=utf-8
+  token: 70f9386c-00c2-4878-8c9e-9222b76b4605
+method: post
+expect:
+  message: success
+---
+# 错误的token错误
+url: http://10.130.10.60:5001/steward/getH5JwtToken
+header:
+  content-Type: application/json;charset=utf-8
+  token: abc
+method: post
+expect:
+  message: 认证错误`````
+---
+# token为空
+url: http://10.130.10.60:5001/steward/getH5JwtToken
+header:
+  content-Type: application/json;charset=utf-8
+  token: None
+method: post
+expect:
+  message: 认证错误`````

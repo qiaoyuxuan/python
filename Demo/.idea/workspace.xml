@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4076b0b1-3b74-4a08-a90c-ab96726fb998" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="362" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jY18ktsattqq4yWDKdygVmCyeY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\Demo\pytestDemo" />
+      <recent name="D:\python\Demo" />
+      <recent name="D:\python\Demo\testTemp\FileDemo\fileData" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.fun3">
+    <configuration name="fun2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器/fun2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fun3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器/fun3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fun4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器/fun4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_fixture_scope (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytestDemo/test_fixture_scope.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_fixture_scope_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\python\Demo\pytestDemo\test_fixture_scope_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_fixture_scope_session1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytestDemo/test_fixture_scope_session1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_fixture_scope_session1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\python\Demo\pytestDemo\test_fixture_scope_session1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_setupclass_demo.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnittestDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/UnittestDemo/test_setupclass_demo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests in test_setupclass_demo.py" />
+      <item itemvalue="Python.test_fixture_scope (1)" />
+      <item itemvalue="Python.test_fixture_scope_session1 (1)" />
+      <item itemvalue="Python.fun3" />
+      <item itemvalue="Python.fun2" />
+      <item itemvalue="Python.fun4" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fun3" />
+        <item itemvalue="Python.fun4" />
+        <item itemvalue="Python.fun2" />
+        <item itemvalue="Python.test_fixture_scope_session1 (1)" />
+        <item itemvalue="Python.test_fixture_scope (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4076b0b1-3b74-4a08-a90c-ab96726fb998" name="Default Changelist" comment="" />
+      <created>1603966053704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603966053704</updated>
+      <workItem from="1603966060178" duration="308000" />
+      <workItem from="1604019971984" duration="365000" />
+      <workItem from="1604022272674" duration="14472000" />
+      <workItem from="1604045913643" duration="731000" />
+      <workItem from="1604047605675" duration="5105000" />
+      <workItem from="1604299883602" duration="9413000" />
+      <workItem from="1604368814839" duration="4560000" />
+      <workItem from="1604373390738" duration="14674000" />
+      <workItem from="1604553347778" duration="12157000" />
+      <workItem from="1606288137452" duration="5490000" />
+      <workItem from="1606307347721" duration="16928000" />
+      <workItem from="1606713591167" duration="2394000" />
+      <workItem from="1606800055818" duration="9600000" />
+      <workItem from="1606995767078" duration="23285000" />
+      <workItem from="1607998149889" duration="15000" />
+      <workItem from="1608017253535" duration="1462000" />
+      <workItem from="1609292512457" duration="22091000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" width="814" height="729" key="#Intentions" timestamp="1609292964583">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" width="814" height="729" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1609292964583" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604382261807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604382261807" />
+    <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606355326918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1606355326918" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604043683797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604043683797" />
+    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1609392880004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1609392880004" />
+    <state width="644" height="466" key="DebuggerActiveHint" timestamp="1609395426147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="644" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1609395426147" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1608024560769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608024560769" />
+    <state width="1492" height="220" key="GridCell.Tab.0.bottom" timestamp="1609725739470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609725739470" />
+    <state width="1492" height="220" key="GridCell.Tab.0.center" timestamp="1609725739470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609725739470" />
+    <state width="1492" height="220" key="GridCell.Tab.0.left" timestamp="1609725739470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609725739470" />
+    <state width="1492" height="220" key="GridCell.Tab.0.right" timestamp="1609725739470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609725739470" />
+    <state width="1492" height="220" key="GridCell.Tab.1.bottom" timestamp="1609725725830">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="220" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609725725830" />
+    <state width="1492" height="220" key="GridCell.Tab.1.center" timestamp="1609725725830">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="220" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609725725830" />
+    <state width="1492" height="220" key="GridCell.Tab.1.left" timestamp="1609725725830">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="220" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609725725830" />
+    <state width="1492" height="220" key="GridCell.Tab.1.right" timestamp="1609725725830">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="220" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609725725830" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1606307392834">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606307392834" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1607998151169">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1607998151169" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609298120152">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609298120152" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器/fun3.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器/fun3.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Demo$test_fixture1__1_.coverage" NAME="test_fixture1 (1) Coverage Results" MODIFIED="1606441722233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$csv_demo__1_.coverage" NAME="csv_demo (1) Coverage Results" MODIFIED="1604565422224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/FileDemo" />
+    <SUITE FILE_PATH="coverage/Demo$class_inherit.coverage" NAME="class_inherit Coverage Results" MODIFIED="1603966131701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/ClassDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_init.coverage" NAME="test_fixture_init Coverage Results" MODIFIED="1609314767008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test.coverage" NAME="test Coverage Results" MODIFIED="1604043606154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/FileDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture2.coverage" NAME="test_fixture2 Coverage Results" MODIFIED="1606441936051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$setupclass.coverage" NAME="setupclass Coverage Results" MODIFIED="1604043569044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$getJsonValue.coverage" NAME="getJsonValue Coverage Results" MODIFIED="1603966302840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonWorkSpace/Test_headless/common" />
+    <SUITE FILE_PATH="coverage/Demo$os_sys.coverage" NAME="os_sys Coverage Results" MODIFIED="1604566624982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/LibDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_in_setupclass_demo_py.coverage" NAME="Unittests in setupclass_demo.py Coverage Results" MODIFIED="1604301606819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$suiteRun__1_.coverage" NAME="suiteRun (1) Coverage Results" MODIFIED="1604304560256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_operation_yaml.coverage" NAME="test_operation_yaml Coverage Results" MODIFIED="1606356350781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_return__1_.coverage" NAME="test_fixture_return (1) Coverage Results" MODIFIED="1606713640555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$fun2.coverage" NAME="fun2 Coverage Results" MODIFIED="1609392791135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
+    <SUITE FILE_PATH="coverage/Demo$login_fun.coverage" NAME="login_fun Coverage Results" MODIFIED="1603966139965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/ClassDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_setupclass_MyTestCase_test_002.coverage" NAME="Unittests for setupclass.MyTestCase.test_002 Coverage Results" MODIFIED="1604038597151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$unit1.coverage" NAME="unit1 Coverage Results" MODIFIED="1604045208526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_setupclass_demo_SetupClassTestCase_test_002.coverage" NAME="Unittests for setupclass_demo.SetupClassTestCase.test_002 Coverage Results" MODIFIED="1604049033503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_setup_demo_SetupTestCase_test_002.coverage" NAME="Unittests for setup_demo.SetupTestCase.test_002 Coverage Results" MODIFIED="1604049049410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_f1_MyTestCase.coverage" NAME="Unittests for f1.MyTestCase Coverage Results" MODIFIED="1604024897449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_scope_session1__1_.coverage" NAME="test_fixture_scope_session1 (1) Coverage Results" MODIFIED="1609321973673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$allTestRun.coverage" NAME="allTestRun Coverage Results" MODIFIED="1604381457036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$file_csv.coverage" NAME="file_csv Coverage Results" MODIFIED="1604564444704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/FileDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fun1__1_.coverage" NAME="test_fun1 (1) Coverage Results" MODIFIED="1606353005744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$headers.coverage" NAME="headers Coverage Results" MODIFIED="1603966309273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonWorkSpace/Test_headless/common" />
+    <SUITE FILE_PATH="coverage/Demo$server.coverage" NAME="server Coverage Results" MODIFIED="1607404915299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_setup_demo_SetupTestCase_test_001.coverage" NAME="Unittests for setup_demo.SetupTestCase.test_001 Coverage Results" MODIFIED="1604049045957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_in_setup_py.coverage" NAME="Unittests in setup.py Coverage Results" MODIFIED="1604045652298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture.coverage" NAME="test_fixture Coverage Results" MODIFIED="1606359783617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_scope.coverage" NAME="test_fixture_scope Coverage Results" MODIFIED="1609318798587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$fun3.coverage" NAME="fun3 Coverage Results" MODIFIED="1609725724905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_in_setup_demo_py.coverage" NAME="Unittests in setup_demo.py Coverage Results" MODIFIED="1604302808710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$file.coverage" NAME="file Coverage Results" MODIFIED="1604553810850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/FileDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_scope_function__1_.coverage" NAME="test_fixture_scope_function (1) Coverage Results" MODIFIED="1609320888007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_in_test1_py.coverage" NAME="Unittests in unit1.py Coverage Results" MODIFIED="1604045215998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_setupclass_MyTestCase_test_001.coverage" NAME="Unittests for setupclass.MyTestCase.test_001 Coverage Results" MODIFIED="1604025814096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1604383692869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requestsDemo" />
+    <SUITE FILE_PATH="coverage/Demo$login_class.coverage" NAME="login_class Coverage Results" MODIFIED="1603966136372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/ClassDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_setup_MyTestCase.coverage" NAME="Unittests for setup.MyTestCase Coverage Results" MODIFIED="1604042303318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$fun4.coverage" NAME="fun4 Coverage Results" MODIFIED="1609395398294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
+    <SUITE FILE_PATH="coverage/Demo$fun1.coverage" NAME="fun1 Coverage Results" MODIFIED="1609294769097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
+    <SUITE FILE_PATH="coverage/Demo$test_operation_json.coverage" NAME="test_operation_json Coverage Results" MODIFIED="1606356961113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_init__1_.coverage" NAME="test_fixture_init (1) Coverage Results" MODIFIED="1606713636546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_setup_demo_SetupTestCase.coverage" NAME="Unittests for setup_demo.SetupTestCase Coverage Results" MODIFIED="1604304374429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_scope_session2.coverage" NAME="test_fixture_scope_session2 Coverage Results" MODIFIED="1609321231914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$xlrd_Demo.coverage" NAME="xlrd_Demo Coverage Results" MODIFIED="1604553762160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/FileDemo" />
+    <SUITE FILE_PATH="coverage/Demo$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1607405943081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_f1_MyTestCase_test_002.coverage" NAME="Unittests for f1.MyTestCase.test_002 Coverage Results" MODIFIED="1604024687572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_unit1_SetupTestCase_test_001.coverage" NAME="Unittests for unit1.SetupTestCase.test_001 Coverage Results" MODIFIED="1604045106175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_p1.coverage" NAME="test_p1 Coverage Results" MODIFIED="1606288235102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1607407239383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_addoption.coverage" NAME="test_fixture_addoption Coverage Results" MODIFIED="1607656240429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_setupclass_demo_SetupClassTestCase_test_003.coverage" NAME="Unittests for setupclass_demo.SetupClassTestCase.test_003 Coverage Results" MODIFIED="1604301147053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_scope_class.coverage" NAME="test_fixture_scope_class Coverage Results" MODIFIED="1609319954876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_sql.coverage" NAME="test_fixture_sql Coverage Results" MODIFIED="1607656245702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$f1.coverage" NAME="f1 Coverage Results" MODIFIED="1604045269834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$requests_post.coverage" NAME="requests_post Coverage Results" MODIFIED="1604387122177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requestsDemo" />
+    <SUITE FILE_PATH="coverage/Demo$request_get__1_.coverage" NAME="request_get (1) Coverage Results" MODIFIED="1604386295794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requestsDemo" />
+    <SUITE FILE_PATH="coverage/Demo$file_json.coverage" NAME="file_json Coverage Results" MODIFIED="1606289749965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/FileDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_param__1_.coverage" NAME="test_param (1) Coverage Results" MODIFIED="1606353035563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1604045298138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testTemp/FileDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_scope__1_.coverage" NAME="test_fixture_scope (1) Coverage Results" MODIFIED="1609321952437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_in_setupclass_py.coverage" NAME="Unittests in setupclass.py Coverage Results" MODIFIED="1604045950232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_in_f1_py.coverage" NAME="Unittests in f1.py Coverage Results" MODIFIED="1604045247196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_fixture_param.coverage" NAME="test_fixture_param Coverage Results" MODIFIED="1606996888816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_f1_MyTestCase_test_001.coverage" NAME="Unittests for f1.MyTestCase.test_001 Coverage Results" MODIFIED="1604024683091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$Unittests_for_setup_MyTestCase_test_001.coverage" NAME="Unittests for setup.MyTestCase.test_001 Coverage Results" MODIFIED="1604027457767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_operation_excel.coverage" NAME="test_operation_excel Coverage Results" MODIFIED="1606356344779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Demo$test_operation_csv.coverage" NAME="test_operation_csv Coverage Results" MODIFIED="1606356347926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+  </component>
+</project>
