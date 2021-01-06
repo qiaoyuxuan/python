@@ -10,4 +10,3 @@ author：乔誉萱
 def t():
 	print("我是测试提交git的代码！")
 	
-t()
