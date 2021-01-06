@@ -24,5 +24,10 @@ def homePage(username='qiao',pwd='123'):
 def perManage(username='qiao',pwd='123'):
 	return '欢迎进入人员管理！'
 	
+@login
+def test(username='qiao',pwd='123'):
+	return '我是新增的方法，用于测试git分支合并'
+	
 print(homePage(username='qiao',pwd='123'))
 print(perManage(username='qiao1',pwd='123'))
+print(test(username='qiao',pwd='123'))
