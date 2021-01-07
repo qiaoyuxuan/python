@@ -3,7 +3,7 @@
 '''
 Datetime：2021/1/6 14:55
 author：乔誉萱
-说明：
+说明：深copy和浅copy，第一次学习
 :param 
 :param 
 '''
