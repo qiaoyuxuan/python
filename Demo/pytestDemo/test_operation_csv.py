@@ -7,13 +7,16 @@ author：乔誉萱
 :param 
 :param 
 '''
-import csv,requests,pytest,json
+import csv,requests,pytest,json,os
+def getPath(dir_name):
+	return os.path.join(os.path.dirname(os.path.dirname(__file__)),dir_name)
 
+# print(getPath('file/pytest_operCsv.csv'))
 
 def readCsv():
 	'''读取csv文件，返回读取内容需添加到list中，再返回list'''
 	data_list = []
-	with open(file='../file/pytest_operCsv.csv',mode='r',encoding='utf-8') as f:
+	with open(file=getPath('file/pytest_operCsv.csv'),mode='r') as f:
 		reader = csv.reader(f)
 		next(reader)
 		for item in reader:

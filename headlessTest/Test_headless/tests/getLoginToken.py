@@ -6,7 +6,7 @@ from Test_headless.base import setUrl
 def get_token():  # 获取网点管家登录token接口
 	get_url = setUrl.token_url()
 	headers = {"Content-Type":"application/json;charset=UTF-8",
-	           "token":"266d4a5a-bd27-4943-854f-6d63da0ceefe",
+	           "token":"3de125ff-f42f-490e-bb7d-61781873c3b3",
 	           "channel":"WDGJ"}
 	
 	response = testRunMain.RunMain()  # 实例化类
