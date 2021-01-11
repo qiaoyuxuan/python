@@ -2,587 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4076b0b1-3b74-4a08-a90c-ab96726fb998" name="Default Changelist" comment="初次学习深浅copy">
-      <change afterPath="$PROJECT_DIR$/../pycharmTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法/fun1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法/fun2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContractManage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContractManage/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/test_operation_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestDemo/test_operation_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/.idea/testTemp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/ClassDemo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/ClassDemo/class_inherit.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/class_inherit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/ClassDemo/login" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/login" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/ClassDemo/login_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/login_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/ClassDemo/login_fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/login_fun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/ClassDemo/readme" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/FileDemo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileDemo/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/FileDemo/csv_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileDemo/csv_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/FileDemo/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileDemo/file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/FileDemo/file_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileDemo/file_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/FileDemo/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileDemo/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/FileDemo/xlrd_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileDemo/xlrd_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/LibDemo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LibDemo/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/LibDemo/os.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LibDemo/os.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/LibDemo/os_sys.py" beforeDir="false" afterPath="$PROJECT_DIR$/LibDemo/os_sys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/easy-install.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/EGG-INFO/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/EGG-INFO/not-zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/EGG-INFO/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/build_env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/cli/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/cli/autocompletion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/cli/base_command.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/cli/cmdoptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/cli/main_parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/cli/parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/cli/status_codes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/completion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/configuration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/download.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/freeze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/hash.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/help.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/install.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/uninstall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/commands/wheel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/configuration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/download.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/locations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/models/candidate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/models/format_control.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/models/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/models/link.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/operations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/operations/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/operations/freeze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/operations/prepare.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/pep425tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/pyproject.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/req/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/req/constructors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/req/req_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/req/req_install.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/req/req_set.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/req/req_tracker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/req/req_uninstall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/resolve.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/appdirs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/deprecation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/encoding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/filesystem.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/glibc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/hashes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/logging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/misc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/outdated.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/packaging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/setuptools_build.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/temp_dir.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/typing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/utils/ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/vcs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/vcs/bazaar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/vcs/git.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/vcs/mercurial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/vcs/subversion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_internal/wheel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/appdirs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/_cmd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/adapter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/caches/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/caches/file_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/controller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/filewrapper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/heuristics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/serialize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/cachecontrol/wrapper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/certifi/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/certifi/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/certifi/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/certifi/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/big5freq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/big5prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/chardistribution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/charsetgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/charsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/cli/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/cli/chardetect.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/codingstatemachine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/cp949prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/enums.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/escprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/escsm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/eucjpprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/euckrfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/euckrprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/euctwfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/euctwprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/gb2312freq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/gb2312prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/hebrewprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/jisfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/jpcntx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/langbulgarianmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/langcyrillicmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/langgreekmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/langhebrewmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/langhungarianmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/langthaimodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/langturkishmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/latin1prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/mbcharsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/mbcsgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/mbcssm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/sbcharsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/sbcsgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/sjisprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/universaldetector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/utf8prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/chardet/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/colorama/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/colorama/ansi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/colorama/ansitowin32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/colorama/initialise.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/colorama/win32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/colorama/winterm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/_backport/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/_backport/misc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/_backport/shutil.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/_backport/sysconfig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/locators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/manifest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/markers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/metadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/resources.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/scripts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/t32.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/t64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/w32.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/w64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distlib/wheel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/distro.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/_ihatexml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/_inputstream.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/_tokenizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/_trie/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/_trie/_base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/_trie/datrie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/_trie/py.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/filters/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/filters/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/filters/lint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/filters/optionaltags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/filters/sanitizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/filters/whitespace.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/html5parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treeadapters/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treeadapters/genshi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treeadapters/sax.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treebuilders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treebuilders/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treebuilders/dom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treebuilders/etree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treewalkers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treewalkers/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treewalkers/dom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treewalkers/etree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treewalkers/etree_lxml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/treewalkers/genshi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/idna/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/idna/codec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/idna/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/idna/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/idna/idnadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/idna/intranges.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/idna/package_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/idna/uts46data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/ipaddress.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/lockfile/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/lockfile/linklockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/lockfile/mkdirlockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/lockfile/pidlockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/lockfile/sqlitelockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/lockfile/symlinklockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/msgpack/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/msgpack/_version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/msgpack/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/msgpack/fallback.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/packaging/__about__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/packaging/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/packaging/_compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/packaging/_structures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/packaging/markers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/packaging/requirements.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/packaging/specifiers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/packaging/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/packaging/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pep517/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pep517/_in_process.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pep517/build.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pep517/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pep517/colorlog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pep517/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pep517/envbuild.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pep517/wrappers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pkg_resources/py31compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/progress/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/progress/bar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/progress/counter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/progress/helpers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/progress/spinner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pyparsing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pytoml/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pytoml/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pytoml/parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pytoml/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pytoml/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/pytoml/writer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/__version__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/_internal_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/adapters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/auth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/certs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/cookies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/help.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/hooks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/packages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/sessions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/status_codes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/structures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/retrying.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/_collections.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/connectionpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/_appengine_environ.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/appengine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/ntlmpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/securetransport.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/socks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/filepost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/packages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/packages/backports/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/packages/backports/makefile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/packages/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/poolmanager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/util/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/util/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/util/queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/util/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/util/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/util/retry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/util/timeout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/util/url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/util/wait.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/webencodings/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/webencodings/labels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/webencodings/mklabels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/webencodings/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/setuptools-40.8.0-py3.6.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/site-packages/setuptools.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Lib/tcl8.6/init.tcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_asyncio.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_asyncio_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_bz2_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_ctypes_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_ctypes_test_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_decimal_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_distutils_findvs.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_distutils_findvs_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_elementtree.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_elementtree_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_hashlib_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_lzma_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_msi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_msi_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_multiprocessing_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_overlapped.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_overlapped_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_socket_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_sqlite3.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_sqlite3_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_ssl_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_testbuffer.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_testbuffer_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_testcapi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_testcapi_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_testconsole.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_testconsole_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_testimportmultiple_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_testmultiphase_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_tkinter.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/_tkinter_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/easy_install-3.6-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/easy_install-3.6.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/easy_install-3.6.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/easy_install-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/easy_install.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/easy_install.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pip-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pip.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pip3-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pip3.6-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pip3.6.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pip3.6.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pip3.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pyexpat_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/python36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/python36_d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/python3_d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/python_d.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/pythonw_d.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/select_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/sqlite3_d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/tcl86tg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/tk86tg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/unicodedata_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/Scripts/winsound_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTemp/深浅copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/深浅copy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/.idea/Git.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/base/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/base/method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/common/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/common/public.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/config/apiFlowCase001.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/config/config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/data/apiFlowCase001.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/data/apiFlowCase002.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/data/login.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/data/returnData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/12917680cd67298b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/158ad3163ef2660c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/1655b09700d6af01.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/1778e2163ea08f61.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/18c38946146a27bc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/2672485b2bfd2b88.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/2b39d6823b9b642e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/2ff7e371110da145.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/32008f37c06e185b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/37cbb8559a62dd8c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/37d81b5939bd8f65.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/39c7086711a268fb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/4114f8b2a601e23e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/4521456a40dfe4a5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/4af3cd37e0e52e7e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/50c77aee637181c1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/54fd32f5a32de126.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/578952f989113ba8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/5a5d111453ae6ed9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/5fa55f313ad62e0d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/6093496503983e2a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/7be825e1aea06e67.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/8862c483294f0867.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/88a807eb81bcc516.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/9334c28f34e7d5af.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/9b466f41c57cc1ef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/a0ee3d565cae36ac.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/a1b1169691714626.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/aa2a2fb81bbd807e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/adba6c3e8477e7c7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/ae3c768309bbb91e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/b1d72c107483a576.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/b719add0d6cc3fee.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/b8fc65a08cf7b8a4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/cc07457156356d3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/cd2568fcd645bb31.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/d024917f7099ad6a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/d02602a107b2932b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/d86a28bfd8714529.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/de84fde0c6191ffd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/e8a4775d918f3dce.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/ea226978e7aa478e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/efe7d29bf1700bff.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/test-cases/fa18f7e78ec1dc31.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/html/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/01d4ebd5-4495-4389-accf-1979f462e339-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/0aa0509d-1dd4-44ee-a538-a124e199879b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/0c110d1f-215e-4100-b870-10d161ab2fd6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/0ffbddb6-5dff-42bf-bab7-2eac495c97ef-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/105622ee-d15f-48d3-b8d1-cb0f2b0f58c0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/13bcebb6-a8bf-4cac-b551-abffda40d245-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/17105eaf-23e4-45a7-93b7-238d3cbe9ed6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/17aeb741-069c-4d86-a2aa-2c7b61e466ae-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/17c2e413-c3f2-4f50-b89a-e13a1d54f191-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/1c25d7bc-a524-4d1b-9e9f-c1c71ae037c6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/2eb0a46c-19f8-4772-b08f-420a43304950-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/3f07a869-9c55-432a-b336-a343f5eba187-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/41289126-c0d3-4027-8777-cca3f499672a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/454c1b89-52f1-4170-ae1b-93b5d51c275e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/4ebdbe28-5f16-4ba7-8eef-e9ac985f840a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/54e44083-3d75-4587-b2f5-3129e46ebd90-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/57e6dcb7-3621-4c0e-8fe3-477cc05aaf96-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/59948346-1728-43ac-b863-6a4741c5a08c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/5cb1b29b-0952-4ec5-a239-df9a96c8e2c2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/5f028aaf-496f-462d-b1ad-5f6599b0da1e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/627cc100-2046-4cc7-ad39-4f80692d64f3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/7444294e-5584-4e98-81e9-e22321760db4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/7cc97509-24f8-41ac-96eb-0484552c3de4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/7fe1d698-3889-49f5-a3d0-8b9b901f5c65-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/847ff8e0-8693-45f7-8d4b-7d0b719f165b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/87d36245-aedf-4c36-8a39-2a0aeecd2b88-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/8f09644d-60ae-4cb3-8f7a-f63b2f94e698-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/90d585b5-a213-4f7c-9ce9-364ba0482ade-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/a5ed57d1-52a9-4a78-b3ba-e85b87d5c665-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/a9134d2c-ed28-4b53-a81c-8df8a2c65a76-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/aa7b531d-3f4c-49af-80b1-1f55d2e6b3f6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/b0fb9799-7605-41d9-98dc-18f42bde007f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/b2038cf2-4b6f-4b24-9cbe-4130894cfac6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/b27a3c92-b3af-4b59-9d88-dcff3e6302b9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/b4317d40-2988-43ee-9bb3-a06d846b1ffc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/ba86eaa8-14f0-4fce-9737-7d663b09ba93-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/be5c9b85-1a59-409b-8b6e-0ef84e46e3d0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/c20a23e2-96c9-4f04-8449-29f4f8c5a05e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/e34c0468-9bdb-49a7-b9ed-ffe9347a73f1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/f3db9045-ffe1-4921-9615-6915e4995837-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/fa38c0f2-aa77-49b0-814f-a5fee99f709f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/faaa5c46-fbb5-424a-8503-8ff51135aef8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/feda5b15-e323-4bb1-8066-99c0793de9e6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/report/result/ffb691c6-f2d9-4059-9b8a-8ef66acbd1a9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/test_apiFlowCase001.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/tests/test_getLoginToken.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/utils/operationExcel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Git（1-14，单接口框架yaml+多接口框架excel+yaml+allure）/Git/utils/operationYaml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharmTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pycharmTest/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharmTest/.idea/pycharmTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pycharmTest/.idea/pycharmTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharmTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pycharmTest/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -640,6 +64,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\python\Demo\ClassDemo" />
@@ -649,8 +80,8 @@
       <recent name="D:\python\Demo\testTemp\FileDemo\fileData" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_fixture_scope_session2">
-    <configuration name="深浅copy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.fun2">
+    <configuration name="fun1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -658,12 +89,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testTemp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\Demo\ClassDemo\深浅copy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/fun1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -672,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="深浅copy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fun2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -680,34 +111,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\Demo\testTemp\深浅copy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_fixture_param" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytestDemo/test_fixture_param.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/fun2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -782,28 +191,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_operation_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytestDemo/test_operation_yaml.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in test_setupclass_demo.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -821,20 +208,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in test_setupclass_demo.py" />
-      <item itemvalue="Python.test_operation_yaml" />
-      <item itemvalue="Python.test_fixture_param" />
       <item itemvalue="Python.test_fixture_scope" />
       <item itemvalue="Python.test_fixture_scope_session1" />
       <item itemvalue="Python.test_fixture_scope_session2" />
+      <item itemvalue="Python.fun1" />
+      <item itemvalue="Python tests.Unittests in test_setupclass_demo.py" />
+      <item itemvalue="Python.fun2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fun2" />
+        <item itemvalue="Python.fun1" />
         <item itemvalue="Python.test_fixture_scope_session2" />
         <item itemvalue="Python.test_fixture_scope_session1" />
         <item itemvalue="Python.test_fixture_scope" />
-        <item itemvalue="Python.test_fixture_param" />
-        <item itemvalue="Python.test_operation_yaml" />
       </list>
     </recent_temporary>
   </component>
@@ -871,6 +258,8 @@
       <workItem from="1609938558908" duration="1309000" />
       <workItem from="1609989684723" duration="2553000" />
       <workItem from="1610067878583" duration="2519000" />
+      <workItem from="1610077025026" duration="8371000" />
+      <workItem from="1610352437054" duration="4388000" />
     </task>
     <task id="LOCAL-00001" summary="初次学习深浅copy">
       <created>1609938670255</created>
@@ -948,38 +337,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="644" y="303" width="272" height="217" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1609939646559" />
-    <state width="1492" height="220" key="GridCell.Tab.0.bottom" timestamp="1610072472723">
+    <state width="1492" height="200" key="GridCell.Tab.0.bottom" timestamp="1610358724227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610072472723" />
-    <state width="1492" height="220" key="GridCell.Tab.0.center" timestamp="1610072472722">
+    <state width="1492" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610358724227" />
+    <state width="1492" height="200" key="GridCell.Tab.0.center" timestamp="1610358724227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610072472722" />
-    <state width="1492" height="220" key="GridCell.Tab.0.left" timestamp="1610072472722">
+    <state width="1492" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610358724227" />
+    <state width="1492" height="200" key="GridCell.Tab.0.left" timestamp="1610358724226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610072472722" />
-    <state width="1492" height="220" key="GridCell.Tab.0.right" timestamp="1610072472723">
+    <state width="1492" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610358724226" />
+    <state width="1492" height="200" key="GridCell.Tab.0.right" timestamp="1610358724227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610072472723" />
-    <state width="1492" height="220" key="GridCell.Tab.1.bottom" timestamp="1610072472723">
+    <state width="1492" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610358724227" />
+    <state width="1492" height="220" key="GridCell.Tab.1.bottom" timestamp="1610358106405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="220" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610072472723" />
-    <state width="1492" height="220" key="GridCell.Tab.1.center" timestamp="1610072472723">
+    <state width="1492" height="220" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610358106405" />
+    <state width="1492" height="220" key="GridCell.Tab.1.center" timestamp="1610358106405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="220" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610072472723" />
-    <state width="1492" height="220" key="GridCell.Tab.1.left" timestamp="1610072472723">
+    <state width="1492" height="220" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610358106405" />
+    <state width="1492" height="220" key="GridCell.Tab.1.left" timestamp="1610358106405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="220" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610072472723" />
-    <state width="1492" height="220" key="GridCell.Tab.1.right" timestamp="1610072472723">
+    <state width="1492" height="220" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610358106405" />
+    <state width="1492" height="220" key="GridCell.Tab.1.right" timestamp="1610358106405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="220" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610072472723" />
+    <state width="1492" height="220" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610358106405" />
     <state x="270" y="55" key="SettingsEditor" timestamp="1609939626850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -992,10 +381,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609930282574" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1609938569157">
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1610352436762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1609938569157" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610352436762" />
     <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609938291626">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1008,10 +397,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="624" y="313" key="git4idea.ui.GitStashDialog/0.0.1536.824@0.0.1536.824" timestamp="1609911056385" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609937976368">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610095292838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609937976368" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610095292838" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Demo$test_fixture1__1_.coverage" NAME="test_fixture1 (1) Coverage Results" MODIFIED="1606441722233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
@@ -1029,7 +418,7 @@
     <SUITE FILE_PATH="coverage/Demo$suiteRun__1_.coverage" NAME="suiteRun (1) Coverage Results" MODIFIED="1604304560256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
     <SUITE FILE_PATH="coverage/Demo$test_operation_yaml.coverage" NAME="test_operation_yaml Coverage Results" MODIFIED="1610070555152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Demo$test_fixture_return__1_.coverage" NAME="test_fixture_return (1) Coverage Results" MODIFIED="1606713640555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
-    <SUITE FILE_PATH="coverage/Demo$fun2.coverage" NAME="fun2 Coverage Results" MODIFIED="1609392791135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
+    <SUITE FILE_PATH="coverage/Demo$fun2.coverage" NAME="fun2 Coverage Results" MODIFIED="1610358724220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/Demo$Unittests_for_setupclass_MyTestCase_test_002.coverage" NAME="Unittests for setupclass.MyTestCase.test_002 Coverage Results" MODIFIED="1604038597151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
     <SUITE FILE_PATH="coverage/Demo$login_fun.coverage" NAME="login_fun Coverage Results" MODIFIED="1610068020289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ClassDemo" />
     <SUITE FILE_PATH="coverage/Demo$unit1.coverage" NAME="unit1 Coverage Results" MODIFIED="1604045208526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
@@ -1059,7 +448,7 @@
     <SUITE FILE_PATH="coverage/Demo$Unittests_for_setup_MyTestCase.coverage" NAME="Unittests for setup.MyTestCase Coverage Results" MODIFIED="1604042303318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
     <SUITE FILE_PATH="coverage/Demo$fun4.coverage" NAME="fun4 Coverage Results" MODIFIED="1609395398294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
     <SUITE FILE_PATH="coverage/Demo$login_class.coverage" NAME="login_class Coverage Results" MODIFIED="1610067922508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ClassDemo" />
-    <SUITE FILE_PATH="coverage/Demo$fun1.coverage" NAME="fun1 Coverage Results" MODIFIED="1609294769097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
+    <SUITE FILE_PATH="coverage/Demo$fun1.coverage" NAME="fun1 Coverage Results" MODIFIED="1610358520038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/Demo$test_fixture_init__1_.coverage" NAME="test_fixture_init (1) Coverage Results" MODIFIED="1606713636546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Demo$test_operation_json.coverage" NAME="test_operation_json Coverage Results" MODIFIED="1610070547417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Demo$Unittests_for_setup_demo_SetupTestCase.coverage" NAME="Unittests for setup_demo.SetupTestCase Coverage Results" MODIFIED="1604304374429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestDemo" />
