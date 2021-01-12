@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4076b0b1-3b74-4a08-a90c-ab96726fb998" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Book_api/11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book_api/11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book_api/22.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +260,7 @@
       <workItem from="1610067878583" duration="2519000" />
       <workItem from="1610077025026" duration="8371000" />
       <workItem from="1610352437054" duration="4727000" />
-      <workItem from="1610435035489" duration="6409000" />
+      <workItem from="1610435035489" duration="6769000" />
     </task>
     <task id="LOCAL-00001" summary="初次学习深浅copy">
       <created>1609938670255</created>
@@ -275,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610441237355</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="初次学习深浅copy">
+      <created>1610441505208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610441505208</updated>
+    </task>
+    <task id="LOCAL-00004" summary="初次学习深浅copy">
+      <created>1610441606899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610441606899</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
