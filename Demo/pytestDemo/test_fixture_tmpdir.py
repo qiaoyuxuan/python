@@ -14,7 +14,7 @@ import requests,pytest
 
 @pytest.fixture()
 def getToken():
-	'''获取无涯老师的书籍系统登录token'''
+	'''获取无涯老师的书籍系统登录token，需要先启动Book_api下的app.py模块'''
 	r = requests.post(
 		url='http://127.0.0.1:5000/auth',
 		json={'username':'wuya','password':'asd888'})
@@ -29,10 +29,9 @@ def test_get_all_books(tmpdir,getToken):
 	:return:
 	'''
 	print('\n原token：',getToken)
-	f = tmpdir.join('token.txt')   # 使用tmpdir创建临时文件token.txt
-	f.write(getToken)              # 将token写入临时文件
-	print('读取临时文件',f.read())   # 读取临时数据
-
+	f = tmpdir.join('token.txt')   # 使用tmpdir创建临时文件token.txt,.join是点不出来的，需要手写
+	f.write(getToken)              # 将token写入临时文件,.write是点不出来的，需要手写
+	print('读取临时文件',f.read())   # 读取临时数据,.read()是点不出来的，需要手写
 
 if __name__ == '__main__':
 	pytest.main(['-v','-s','test_fixture_tmpdir.py'])
