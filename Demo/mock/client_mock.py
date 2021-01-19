@@ -3,7 +3,7 @@
 '''
 Datetime：2021/1/12 18:34
 author：乔誉萱
-说明：这是一段开发程序，接口不通，需要通过mock模拟，模拟mock的模块：client_mock.py
+说明：这是一段开发程序，接口不通，需要通过mock模拟，模拟mock的模块：client_mock_test.py
 :param 
 :param 
 '''
@@ -14,5 +14,5 @@ def send_test(url):
 	return r.status_code
 
 def visit_test():
-	return send_test('http://127.0.0.1/')
+	return send_test('http://127.0.0.1:5000/v1/api/books')
 
