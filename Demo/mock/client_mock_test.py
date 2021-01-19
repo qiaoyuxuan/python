@@ -3,7 +3,7 @@
 '''
 Datetime：2021/1/12 18:39
 author：乔誉萱
-说明：
+说明：模拟mock，替代client_mock接口的返回值
 :param 
 :param 
 '''
