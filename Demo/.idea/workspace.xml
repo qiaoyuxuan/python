@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4076b0b1-3b74-4a08-a90c-ab96726fb998" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/加密/base64_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/加密/findmd5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/加密/md5_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/加密/wordlist.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../headlessTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../headlessTest/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +261,7 @@
       <workItem from="1610352437054" duration="4727000" />
       <workItem from="1610435035489" duration="13706000" />
       <workItem from="1611036316072" duration="3626000" />
-      <workItem from="1611632107311" duration="7243000" />
+      <workItem from="1611632107311" duration="11004000" />
     </task>
     <task id="LOCAL-00001" summary="初次学习深浅copy">
       <created>1609938670255</created>
