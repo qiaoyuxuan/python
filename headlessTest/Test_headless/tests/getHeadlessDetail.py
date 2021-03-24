@@ -7,10 +7,10 @@
 :param token：登陆token
 :param h_id：无着件ID
 '''
-from Test_headless.base import setUrl
-from Test_headless.base import testRunMain
-from Test_headless.base import timeStamp
-from Test_headless.tests import getLoginToken,headlessAdd
+from headlessTest.Test_headless.base import setUrl
+from headlessTest.Test_headless.base import testRunMain
+from headlessTest.Test_headless.base import timeStamp
+from headlessTest.Test_headless.tests import getLoginToken,headlessAdd
 import json,logging
 
 

@@ -9,7 +9,7 @@
 
 '''
 import requests,json,logging
-from Test_headless.base import setUrl
+from headlessTest.Test_headless.base import setUrl
 
 
 class RunMain(object):

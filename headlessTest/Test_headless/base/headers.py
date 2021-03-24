@@ -5,8 +5,8 @@ Datetime：2020/11/6 9:12
 author：乔誉萱
 说明：封装接口请求头
 '''
-from Test_headless.base import *
-from Test_headless.tests import getLoginToken
+from headlessTest.Test_headless.base import *
+from headlessTest.Test_headless.tests import getLoginToken
 
 
 def get_headers():

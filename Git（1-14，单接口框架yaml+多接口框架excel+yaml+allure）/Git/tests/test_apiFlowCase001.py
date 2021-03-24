@@ -18,7 +18,6 @@ from common.public import *
 from base.method import Requests
 import pytest,json,allure
 
-
 class Test_ApiFlowCase001(object):
 	'''实例化类'''
 	obj_requests = Requests()  # 接口调用类

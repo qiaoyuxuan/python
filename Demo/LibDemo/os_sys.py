@@ -14,7 +14,9 @@ sys.path.append(dir_name) # 将目录加入环境变量
 for item in sys.path: # 循环打印环境变量，查看是否添加成功
 	print(item)
 
-import file_json
+
+from Demo.FileDemo import file_json
+# import file_json
 file_json.FileJson('os.txt','我是通过sys放入环境变量后，在LibDemo模块中调用file_json模块的内容').read_file()
 
 

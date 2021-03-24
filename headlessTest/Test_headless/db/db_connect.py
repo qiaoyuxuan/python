@@ -9,7 +9,7 @@ author：乔誉萱
 :param *args: 数据库连接串(统一封装到common.datas.setDBparam中)
 '''
 import pymysql,logging
-from Test_headless.base import setDBparam
+from headlessTest.Test_headless.base import setDBparam
 
 
 def db_connect(set_sql,values,*args):

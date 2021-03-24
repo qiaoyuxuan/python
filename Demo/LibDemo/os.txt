@@ -2,3 +2,6 @@
 "我是通过sys放入环境变量后，在one模块中调用file_json模块的内容"
 "我是通过sys放入环境变量后，在one模块中调用file_json模块的内容"
 "我是通过sys放入环境变量后，在one模块中调用file_json模块的内容"
+"我是通过sys放入环境变量后，在LibDemo模块中调用file_json模块的内容"
+"我是通过sys放入环境变量后，在LibDemo模块中调用file_json模块的内容"
+"我是通过sys放入环境变量后，在LibDemo模块中调用file_json模块的内容"
