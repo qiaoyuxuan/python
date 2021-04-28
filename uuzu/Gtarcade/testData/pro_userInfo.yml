@@ -1,0 +1,7 @@
+url: https://profile.gtarcade.com/api/user/info
+header:
+  Content-Type: application/x-www-form-urlencoded
+  Cookie: $cookie
+expect:
+  status: 0
+  msg: Success

@@ -13,7 +13,7 @@ author：乔誉萱
 '''
 import xlrd
 from common.public import filePath
-from utils.operationYaml import OperationYaml
+from Git.utils.operationYaml import OperationYaml
 
 
 class ExcelVarles(object):

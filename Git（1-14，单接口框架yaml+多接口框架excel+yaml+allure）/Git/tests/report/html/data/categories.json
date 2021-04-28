@@ -1,5 +1,65 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\02 pythonFrame\\\\ContractManage\\\\data\\\\apiFlowCase001.xls'",
+      "children" : [ {
+        "name" : "登陆",
+        "uid" : "3f91d173aca5b0f8",
+        "parentUid" : "6bd9d3623e3b015c8b73ef96144d0881",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619432958610,
+          "stop" : 1619432958611,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询本公司无着件",
+        "uid" : "8d5bd97e3e06a6ad",
+        "parentUid" : "6bd9d3623e3b015c8b73ef96144d0881",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619432958722,
+          "stop" : 1619432958723,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "无着件上报",
+        "uid" : "d9ce95baf9a563f6",
+        "parentUid" : "6bd9d3623e3b015c8b73ef96144d0881",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619432958746,
+          "stop" : 1619432958746,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "附加上报无着件",
+        "uid" : "bdb8e19f9ade60b7",
+        "parentUid" : "6bd9d3623e3b015c8b73ef96144d0881",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619432958764,
+          "stop" : 1619432958764,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bd9d3623e3b015c8b73ef96144d0881"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

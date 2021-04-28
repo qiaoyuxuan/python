@@ -1,0 +1,6 @@
+# 获取游戏中心游戏列表接口
+url: https://micro-api.gtarcade.com/game-list
+header:
+  cookie: $cookie
+expect:
+  msg: success

@@ -32,7 +32,7 @@ class OperationYaml(object):
 
 
 if __name__ == '__main__':
-	# r1 = OperationYaml.readYaml_list('data','login.yaml')
+	# r1 = OperationYaml.readYaml_list('data','pro_login.yml')
 	# print(r1)
 	r2 = OperationYaml.readYaml_dict('config','apiFlowCase001.yaml')
 	print(r2['case_005'])

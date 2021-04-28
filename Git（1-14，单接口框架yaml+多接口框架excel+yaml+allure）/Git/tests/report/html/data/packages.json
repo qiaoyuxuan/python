@@ -5,52 +5,52 @@
     "name" : "test_apiFlowCase001",
     "children" : [ {
       "name" : "登陆",
-      "uid" : "7be825e1aea06e67",
+      "uid" : "3f91d173aca5b0f8",
       "parentUid" : "7213b4ce843a15b88ec62c0b5accc2c9",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1605691505079,
-        "stop" : 1605691505114,
-        "duration" : 35
+        "start" : 1619432958610,
+        "stop" : 1619432958611,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "查询本公司无着件",
-      "uid" : "b8fc65a08cf7b8a4",
+      "uid" : "8d5bd97e3e06a6ad",
       "parentUid" : "7213b4ce843a15b88ec62c0b5accc2c9",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1605691505117,
-        "stop" : 1605691505189,
-        "duration" : 72
+        "start" : 1619432958722,
+        "stop" : 1619432958723,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "无着件上报",
-      "uid" : "aa2a2fb81bbd807e",
+      "uid" : "d9ce95baf9a563f6",
       "parentUid" : "7213b4ce843a15b88ec62c0b5accc2c9",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1605691505191,
-        "stop" : 1605691505271,
-        "duration" : 80
+        "start" : 1619432958746,
+        "stop" : 1619432958746,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "附加上报无着件",
-      "uid" : "54fd32f5a32de126",
+      "uid" : "bdb8e19f9ade60b7",
       "parentUid" : "7213b4ce843a15b88ec62c0b5accc2c9",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1605691505271,
-        "stop" : 1605691505295,
-        "duration" : 24
+        "start" : 1619432958764,
+        "stop" : 1619432958764,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,

@@ -76,7 +76,7 @@
 # from UnittestDemo import setup
 #
 #
-# class MyTestCase(unittest.TestCase):
+# class MyTestCase(unittest.testCase):
 # 	@classmethod
 # 	def setUpClass(cls) -> None:
 # 		pass

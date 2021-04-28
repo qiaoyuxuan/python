@@ -36,5 +36,4 @@ class Requests(object):
 	
 	def delete(self,url,**kwargs):
 		return self.request(method='delete',url=url,**kwargs)
-	
 

@@ -1,0 +1,152 @@
+{
+  "uid" : "8d5bd97e3e06a6ad",
+  "name" : "查询本公司无着件",
+  "fullName" : "test_apiFlowCase001.Test_ApiFlowCase001#test_query",
+  "historyId" : "c8e32c885790352084deeb7e11ad9773",
+  "time" : {
+    "start" : 1619432958722,
+    "stop" : 1619432958723,
+    "duration" : 1
+  },
+  "description" : "查询本公司无着件",
+  "descriptionHtml" : "<p>查询本公司无着件</p>\n",
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\02 pythonFrame\\\\ContractManage\\\\data\\\\apiFlowCase001.xls'",
+  "statusTrace" : "self = <tests.test_apiFlowCase001.Test_ApiFlowCase001 object at 0x04710090>\n\n    @allure.title('查询本公司无着件')\n    @allure.epic('查询当前登陆用户所属公司全部无着件')\n    def test_query(self):\n    \t'''查询本公司无着件'''\n>   \tgetUrl = self.obj_excel.getUrl(row=2)  # excel中获取第2行url，即查询无着件接口\n\ntest_apiFlowCase001.py:50: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\utils\\operationExcel.py:85: in getUrl\n    return self.getValue(row=row,col=ExcelVarles().getUrl())\n..\\utils\\operationExcel.py:73: in getValue\n    return self.getSheet().cell_value(row,col)\n..\\utils\\operationExcel.py:58: in getSheet\n    con = xlrd.open_workbook(filePath('data','apiFlowCase001.xls'),'r')\nC:\\Users\\qiaoyx\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\xlrd\\__init__.py:166: in open_workbook\n    file_format = inspect_format(filename, file_contents)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\npath = 'D:\\\\02 pythonFrame\\\\ContractManage\\\\data\\\\apiFlowCase001.xls'\ncontent = None\n\n    def inspect_format(path=None, content=None):\n        \"\"\"\n        Inspect the content at the supplied path or the :class:`bytes` content provided\n        and return the file's type as a :class:`str`, or ``None`` if it cannot\n        be determined.\n    \n        :param path:\n          A :class:`string <str>` path containing the content to inspect.\n          ``~`` will be expanded.\n    \n        :param content:\n          The :class:`bytes` content to inspect.\n    \n        :returns:\n           A :class:`str`, or ``None`` if the format cannot be determined.\n           The return value can always be looked up in :data:`FILE_FORMAT_DESCRIPTIONS`\n           to return a human-readable description of the format found.\n        \"\"\"\n        if content:\n            peek = content[:PEEK_SIZE]\n        else:\n            path = os.path.expanduser(path)\n>           with open(path, \"rb\") as f:\nE           FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\02 pythonFrame\\\\ContractManage\\\\data\\\\apiFlowCase001.xls'\n\nC:\\Users\\qiaoyx\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\xlrd\\__init__.py:60: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "查询当前登陆用户所属公司全部无着件"
+  }, {
+    "name" : "suite",
+    "value" : "test_apiFlowCase001"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ApiFlowCase001"
+  }, {
+    "name" : "host",
+    "value" : "UPC3079"
+  }, {
+    "name" : "thread",
+    "value" : "13464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_apiFlowCase001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2aea10f7cff2689f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605691505117,
+        "stop" : 1605691505189,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "a6d5e30c73a232fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605691455805,
+        "stop" : 1605691455914,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "92a12f68e8d1556f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605691241923,
+        "stop" : 1605691242021,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "9d19e9ccc457718b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690498854,
+        "stop" : 1605690498953,
+        "duration" : 99
+      }
+    }, {
+      "uid" : "869573a43f0bb6ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690357616,
+        "stop" : 1605690357702,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "19904cd750f2212c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690279779,
+        "stop" : 1605690279874,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "63bb0e54cb279a8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605690099759,
+        "stop" : 1605690099850,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "203b576ea378210e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605689463066,
+        "stop" : 1605689463160,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "35dc6c91d4a9ec1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605689155394,
+        "stop" : 1605689155481,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "65029a0db8182ab5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605688998188,
+        "stop" : 1605688998274,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "75842b7927e2ccda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605688808244,
+        "stop" : 1605688808353,
+        "duration" : 109
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8d5bd97e3e06a6ad.json",
+  "parameterValues" : [ ]
+}

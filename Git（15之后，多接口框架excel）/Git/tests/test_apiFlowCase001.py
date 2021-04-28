@@ -12,8 +12,8 @@ author：乔誉萱
 :param Requests 接口
 :param public.*
 '''
-from utils.operationYaml import OperationYaml
-from utils.operationExcel import OperationExcel,ExcelVarles
+from Git.utils.operationYaml import OperationYaml
+from Git.utils.operationExcel import OperationExcel,ExcelVarles
 from common.public import *
 from base.method import Requests
 import pytest,json
@@ -123,5 +123,5 @@ class Test_ApiFlowCase001(object):
 if __name__ == '__main__':
 	test = Test_ApiFlowCase001()
 	test.test_RunAll()
-	'''['--alluredir','./report/result']会生成一个json文件，html测试报告会读取该json数据'''
+	'''['--alluredir','./Report/result']会生成一个json文件，html测试报告会读取该json数据'''
 	pytest.main(['-s','-v','test_apiFlowCase001.py::Test_ApiFlowCase001'])

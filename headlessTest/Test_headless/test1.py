@@ -60,7 +60,7 @@ list1 = [{'name':'qiao','age':18},'address','上海']
 # Test1.t1(list1)
 # Test1.time1()
 
-# class Test123(unittest.TestCase):
+# class Test123(unittest.testCase):
 # 	@classmethod
 # 	def setUpClass(cls):
 # 		print('setUpClass')

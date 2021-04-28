@@ -27,3 +27,8 @@ def getData_modify(request):
 	'''返回yaml数据——修改条款'''
 	return request.param
 
+def test_param(getData_submit):
+	print(getData_submit[0])
+
+if __name__ == '__main__':
+	pytest.main(['-v','-s','getFixture.py'])

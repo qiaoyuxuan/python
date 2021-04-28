@@ -9,13 +9,13 @@ author：乔誉萱
 :param Requests 封装的接口方法
 '''
 import pytest,json
-from utils.operationYaml import OperationYaml
-from base.method import Requests
+from Git.utils.operationYaml import OperationYaml
+from Git.base.method import Requests
 
 
 class Test_getLoginToken(object):
 	'''将读取到的yaml文件数据，循环放入datas进行参数化，调用登陆接口'''
-	@pytest.mark.parametrize('datas',OperationYaml.readYaml_list('data','login.yaml'))
+	@pytest.mark.parametrize('datas',OperationYaml.readYaml_list('data','pro_login.yml'))
 	def test_getToken(self,datas):
 		obj_request = Requests()
 		result = obj_request.post(

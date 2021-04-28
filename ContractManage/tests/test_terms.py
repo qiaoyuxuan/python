@@ -8,8 +8,8 @@ author：乔誉萱
 :param 
 '''
 
-from base.method import Requests
-from common.getFixture import *
+from ContractManage.base.method import Requests
+from ContractManage.common.getFixture import *
 
 obj_request = Requests()
 
@@ -26,6 +26,7 @@ def test_submit(getData_submit,conftest_getHeaders):
 		headers=conftest_getHeaders,
 		json=getData_submit['data']
 	)
+
 	assert getData_submit['message'] == result.json()['message']
 	return result.json()
 

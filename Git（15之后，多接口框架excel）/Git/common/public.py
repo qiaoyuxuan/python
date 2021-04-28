@@ -74,7 +74,7 @@ def list_to_dict(list_data):
 
 
 '''测试'''
-# print(filePath('data','login.yaml'))
+# print(filePath('data','pro_login.yml'))
 # writeFile('case001:\n'+str(w)+'\n',"a")
 
 '''测试traverse_take_field'''

@@ -1,0 +1,19 @@
+# 新版游戏详情
+url: https://micro-api.gtarcade.com/v2/game/game-details
+header:
+  cookie: $cookie
+data:
+  game_id: $game_id
+expect:
+  msg: success
+---
+# 游戏专区新闻
+url: https://micro-api.gtarcade.com/all-news
+header:
+  cookie: $cookie
+data:
+  game_id: $game_id
+  page: 1
+  size: 5
+expect:
+  msg: success

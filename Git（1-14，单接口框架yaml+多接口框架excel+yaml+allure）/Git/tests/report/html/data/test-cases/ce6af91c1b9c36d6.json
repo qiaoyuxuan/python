@@ -1,0 +1,53 @@
+{
+  "uid" : "ce6af91c1b9c36d6",
+  "name" : "test_add",
+  "fullName" : "test_apiFlowCase001.Test_ApiFlowCase001#test_add",
+  "historyId" : "6d941b91b4031847dde143f185743332",
+  "time" : {
+    "start" : 1605690099852,
+    "stop" : 1605690099979,
+    "duration" : 127
+  },
+  "description" : "上报无着件",
+  "descriptionHtml" : "<p>上报无着件</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_apiFlowCase001"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ApiFlowCase001"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200929VNUZ"
+  }, {
+    "name" : "thread",
+    "value" : "5944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_apiFlowCase001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce6af91c1b9c36d6.json",
+  "parameterValues" : [ ]
+}
