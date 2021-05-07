@@ -39,7 +39,8 @@ def test_userInfo(conf_getCookie, get_param_info):
 
 
 if __name__ == '__main__':
-	pytest.main(['-s', '-v', '--lf', 'test_profile.py', '--alluredir=../allure-report/profile/result','--clean-alluredir'])
+	pytest.main(
+		['-s', '-v', '--lf', 'test_profile.py', '--alluredir=../allure-report/profile/result', '--clean-alluredir'])
 	import subprocess
 
 	subprocess.call('allure generate ../allure-Report/profile/result/ -o ../allure-Report/profile/html --clean',

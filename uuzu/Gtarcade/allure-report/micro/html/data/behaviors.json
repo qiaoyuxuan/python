@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "micro-api获取游戏中心游戏列表",
+    "uid" : "3e64d50868b808a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619676608411,
+      "stop" : 1619676609022,
+      "duration" : 611
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'url': 'https://micro-api.gtarcade.com/game-list', 'header': {'cookie': 'uuzu_UNICKNAME=81797390;uuzu_UAUTH=A2hVZAc5BzMCagUMWwdSMQUmU2QAVVseB20Hc1MiV2oAZlNuAzYBb1NJU0QMQlQwABhSVVg2CHpbQ1JUAEZTQQNnVV0HEgchAg4FZFtpUnEFdFNuAGZbPQcxBzhTMlc5AEhTRwMWAWFTSVNUDGRUeQAYUlVYFAg9WypSbABlU3MDcFVaBzsHOwIwBT9bPlJaBTtTcAAwWx4HBAcUUy1XSgBDU2QDKwEcU3xTVQx%2BVEwAFlI8WGgIJltgUmEAd1N0A1tVaQc4BzMCPgU4Ww9ScQU7U20AaFtuBx0HAVMOV3wASFNXAwoBYVNIU2oMUlQ3ABlSUFhoCD1bKlJhAGdTYwNrVXAHOQcgAmoFG1sEUlwFKlNNAGdbFgdjBxhTE1djADdTTgMXARtTMlNODG1URgBiUk9YEQhVWzhSTgBQU0kDMVVLBz0HAQJnBRtbN1I4BW9TJgB9WzIHIwcmUyBXawB1U2cDbgEfU1FTVgxtVEwAE1JAWGAITVs%2BUk0AflNOA35VSAdnBw0COgUHWyhSSwUGU04AYFsJBzoHHFMgV14AU1NWA2ABHFNCU2QMbVROAGVST1g%2BCE5bdlJWAG9TTgNuVUQHZAcZAhAFDFs9UksFNVM9ADBbdQcxBzFTPldgADpTJQM3ASdTdFNhDHNUagA4Um9YaAhNW2ZSVQAxU00DblVEByAHGQIWBWtbbQ%3D%3D;'}, 'expect': {'msg': 'success'}}", "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
+  }, {
+    "name" : "micro-api新版游戏详情/游戏专区新闻",
+    "uid" : "8839a46ea37e7166",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619676609684,
+      "stop" : 1619676626297,
+      "duration" : 16613
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'url': 'https://micro-api.gtarcade.com/v2/game/game-details', 'header': {'cookie': 'uuzu_UNICKNAME=81797390;uuzu_UAUTH=UzhQYQA%2BADRQOFFYDFBWNVR3BjFaDwlMWjAHc1AhUWxUMlxhVGEEagUfAhUMQlQwABhWUVwyCnhaQgQCVxECEFM3UFgAFQAmUFxRMAw%2BVnVUJQY7WjwJb1psBzhQMVE%2FVBxcSFRBBGQFHwIFDGRUeQAYVlFcEAo%2FWisEOlcyAiJTIFBfADwAPFBiUWsMaVZeVGoGJVpqCUxaWQcUUC5RTFQXXGtUfAQZBSoCBAx%2BVEwAFlY4XGwKJFphBDdXIAIlUwtQbAA%2FADRQbFFsDFhWdVRqBjhaMgk8WkAHAVANUXpUHFxYVF0EZAUeAjsMUlQ3ABlWclxsCj9aKwQ3VzACMlM7UHUAPgAnUDhRTwxTVlhUewYYWj0JRFo%2BBxhQEFFlVGNcQVRABB4FZAIfDG1URgBiVktcFQpXWjkEGFcHAhhTYVBOADoABlA1UU8MYFY8VD4Gc1onCWBafgcmUCNRbVQhXGhUOQQaBQcCBwxtVEwAE1ZEXGQKT1o%2FBBtXKQIfUy5QTQBgAApQaFFTDH9WT1RXBhtaOglbWmcHHFAjUVhUB1xZVDcEGQUUAjUMbVROAGVWS1w6CkxadwQAVzgCH1M%2BUEEAYwAeUEJRWAxqVk9UZAZoWmoJJ1psBzFQPVFmVG5cKlRgBCIFIgIwDHNUagA4VmtcbApPWmcEA1dmAhxTPlBBACcAHlBEUT8MOg%3D%3D;'}, 'data': {'game_id': '3000219'}, 'expect': {'msg': 'success'}}", "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
+  }, {
+    "name" : "micro-api新版游戏详情/游戏专区新闻",
+    "uid" : "3ad0f420e9624c53",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619676627995,
+      "stop" : 1619676644951,
+      "duration" : 16956
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'url': 'https://micro-api.gtarcade.com/all-news', 'header': {'cookie': 'uuzu_UNICKNAME=81797390;uuzu_UAUTH=UzhUZQA%2BDjoDa1BZAV1SMQMgADcKXw1IVT8AdFAhDDENawY7VmNSPFZMAhULRVM3VExQV18xD31XT1NVB0EGFFM3VFwAFQ4oAw9QMQEzUnEDcgA9CmwNa1VjAD9QMQxiDUUGElZDUjJWTAIFC2NTflRMUFdfEw86VyZTbQdiBiZTIFRbADwOMgMxUGoBZFJaAz0AIwo6DUhVVgATUC4MEQ1OBjFWflJPVnkCBAt5U0tUQlA%2BX28PIVdsU2AHcAYhUwtUaAA%2FDjoDP1BtAVVScQM9AD4KYg04VU8ABlANDCcNRQYCVl9SMlZNAjsLVVMxVE1QZF9vDzpXJlNgB2AGNlM7VHEAPg4pA2tQTgFeUlwDLAAeCm0NQFUxAB9QEAw4DToGG1ZCUkhWNwIfC2pTQVQ2UE1fFg9SVzRTTwdXBhxTYVRKADoOCANmUE4BbVI4A2kAdQp3DWRVcQAhUCMMMA14BjJWO1JMVlQCBwtqU0tUR1BCX2cPSlcyU0wHeQYbUy5USQBgDgQDO1BSAXJSSwMAAB0Kag1fVWgAG1AjDAUNXgYDVjVST1ZHAjULalNJVDFQTV85D0lXelNXB2gGG1M%2BVEUAYw4QAxFQWQFnUksDMwBuCjoNI1VjADZQPQw7DTcGcFZiUnRWcQIwC3RTbVRsUG1fbw9KV2pTVAc2BhhTPlRFACcOEAMXUD4BNw%3D%3D;'}, 'data': {'game_id': '3000219', 'page': 1, 'size': 5}, 'expect': {'msg': 'success'}}", "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
+  } ]
+}

@@ -1,0 +1,103 @@
+{
+  "uid" : "8839a46ea37e7166",
+  "name" : "micro-api新版游戏详情/游戏专区新闻",
+  "fullName" : "test_microapi_gamedetails#test_gamedetails",
+  "historyId" : "67b414cab9111a5151e662a0a794088c",
+  "time" : {
+    "start" : 1619676609684,
+    "stop" : 1619676626297,
+    "duration" : 16613
+  },
+  "description" : "\n\t新版游戏详情/游戏专区新闻 两个接口\n\t:param conf_getCookie: profile登录接口cookie\n\t:param get_allparam_gamelist: 获取的接口参数\n\t:return:\n\t",
+  "descriptionHtml" : "<pre><code>新版游戏详情/游戏专区新闻 两个接口\n:param conf_getCookie: profile登录接口cookie\n:param get_allparam_gamelist: 获取的接口参数\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_allparam_gamelist",
+    "time" : {
+      "start" : 1619676609684,
+      "stop" : 1619676609684,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "conf_getCookie",
+    "time" : {
+      "start" : 1619676609026,
+      "stop" : 1619676609684,
+      "duration" : 658
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_param_login",
+    "time" : {
+      "start" : 1619676609026,
+      "stop" : 1619676609026,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_microapi_gamedetails"
+  }, {
+    "name" : "host",
+    "value" : "UPC3079"
+  }, {
+    "name" : "thread",
+    "value" : "19164-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_microapi_gamedetails"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_allparam_gamelist",
+    "value" : "{'url': 'https://micro-api.gtarcade.com/v2/game/game-details', 'header': {'cookie': 'uuzu_UNICKNAME=81797390;uuzu_UAUTH=UzhQYQA%2BADRQOFFYDFBWNVR3BjFaDwlMWjAHc1AhUWxUMlxhVGEEagUfAhUMQlQwABhWUVwyCnhaQgQCVxECEFM3UFgAFQAmUFxRMAw%2BVnVUJQY7WjwJb1psBzhQMVE%2FVBxcSFRBBGQFHwIFDGRUeQAYVlFcEAo%2FWisEOlcyAiJTIFBfADwAPFBiUWsMaVZeVGoGJVpqCUxaWQcUUC5RTFQXXGtUfAQZBSoCBAx%2BVEwAFlY4XGwKJFphBDdXIAIlUwtQbAA%2FADRQbFFsDFhWdVRqBjhaMgk8WkAHAVANUXpUHFxYVF0EZAUeAjsMUlQ3ABlWclxsCj9aKwQ3VzACMlM7UHUAPgAnUDhRTwxTVlhUewYYWj0JRFo%2BBxhQEFFlVGNcQVRABB4FZAIfDG1URgBiVktcFQpXWjkEGFcHAhhTYVBOADoABlA1UU8MYFY8VD4Gc1onCWBafgcmUCNRbVQhXGhUOQQaBQcCBwxtVEwAE1ZEXGQKT1o%2FBBtXKQIfUy5QTQBgAApQaFFTDH9WT1RXBhtaOglbWmcHHFAjUVhUB1xZVDcEGQUUAjUMbVROAGVWS1w6CkxadwQAVzgCH1M%2BUEEAYwAeUEJRWAxqVk9UZAZoWmoJJ1psBzFQPVFmVG5cKlRgBCIFIgIwDHNUagA4VmtcbApPWmcEA1dmAhxTPlBBACcAHlBEUT8MOg%3D%3D;'}, 'data': {'game_id': '3000219'}, 'expect': {'msg': 'success'}}"
+  }, {
+    "name" : "get_param_login",
+    "value" : "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8839a46ea37e7166.json",
+  "parameterValues" : [ "{'url': 'https://micro-api.gtarcade.com/v2/game/game-details', 'header': {'cookie': 'uuzu_UNICKNAME=81797390;uuzu_UAUTH=UzhQYQA%2BADRQOFFYDFBWNVR3BjFaDwlMWjAHc1AhUWxUMlxhVGEEagUfAhUMQlQwABhWUVwyCnhaQgQCVxECEFM3UFgAFQAmUFxRMAw%2BVnVUJQY7WjwJb1psBzhQMVE%2FVBxcSFRBBGQFHwIFDGRUeQAYVlFcEAo%2FWisEOlcyAiJTIFBfADwAPFBiUWsMaVZeVGoGJVpqCUxaWQcUUC5RTFQXXGtUfAQZBSoCBAx%2BVEwAFlY4XGwKJFphBDdXIAIlUwtQbAA%2FADRQbFFsDFhWdVRqBjhaMgk8WkAHAVANUXpUHFxYVF0EZAUeAjsMUlQ3ABlWclxsCj9aKwQ3VzACMlM7UHUAPgAnUDhRTwxTVlhUewYYWj0JRFo%2BBxhQEFFlVGNcQVRABB4FZAIfDG1URgBiVktcFQpXWjkEGFcHAhhTYVBOADoABlA1UU8MYFY8VD4Gc1onCWBafgcmUCNRbVQhXGhUOQQaBQcCBwxtVEwAE1ZEXGQKT1o%2FBBtXKQIfUy5QTQBgAApQaFFTDH9WT1RXBhtaOglbWmcHHFAjUVhUB1xZVDcEGQUUAjUMbVROAGVWS1w6CkxadwQAVzgCH1M%2BUEEAYwAeUEJRWAxqVk9UZAZoWmoJJ1psBzFQPVFmVG5cKlRgBCIFIgIwDHNUagA4VmtcbApPWmcEA1dmAhxTPlBBACcAHlBEUT8MOg%3D%3D;'}, 'data': {'game_id': '3000219'}, 'expect': {'msg': 'success'}}", "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
+}

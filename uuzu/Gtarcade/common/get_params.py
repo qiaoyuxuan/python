@@ -13,11 +13,11 @@ import pytest
 from uuzu.Gtarcade.common import operationFile
 
 
-
 @pytest.fixture(params=operationFile.read_yaml(filedir='testData', filename='pro_login.yml'))
 def get_param_login(request):
 	'''返回profile登录接口入参'''
 	return request.param
+
 
 @pytest.fixture(params=operationFile.read_yaml(filedir='testData', filename='pro_userInfo.yml'))
 def get_param_info(request):
@@ -30,11 +30,11 @@ def get_param_gamelist(request):
 	'''返回micro-api获取游戏中心列表接口入参'''
 	return request.param
 
+
 @pytest.fixture(params=operationFile.read_yaml(filedir='testData', filename='microapi_all_gamedetails.yml'))
 def get_allparam_gamelist(request):
 	'''返回micro-api获取游戏中心列表接口入参'''
 	return request.param
-
 
 
 if __name__ == '__main__':

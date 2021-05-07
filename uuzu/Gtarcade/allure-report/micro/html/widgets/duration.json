@@ -1,0 +1,31 @@
+[ {
+  "uid" : "3ad0f420e9624c53",
+  "name" : "micro-api新版游戏详情/游戏专区新闻",
+  "time" : {
+    "start" : 1619676627995,
+    "stop" : 1619676644951,
+    "duration" : 16956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8839a46ea37e7166",
+  "name" : "micro-api新版游戏详情/游戏专区新闻",
+  "time" : {
+    "start" : 1619676609684,
+    "stop" : 1619676626297,
+    "duration" : 16613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e64d50868b808a3",
+  "name" : "micro-api获取游戏中心游戏列表",
+  "time" : {
+    "start" : 1619676608411,
+    "stop" : 1619676609022,
+    "duration" : 611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,19 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Apr 29 14:10:27 CST 2021","Thu Apr 29 14:10:44 CST 2021","16956","","test_microapi_gamedetails","","","","micro-api新版游戏详情/游戏专区新闻","
+	新版游戏详情/游戏专区新闻 两个接口
+	:param conf_getCookie: profile登录接口cookie
+	:param get_allparam_gamelist: 获取的接口参数
+	:return:
+	"
+"passed","Thu Apr 29 14:10:09 CST 2021","Thu Apr 29 14:10:26 CST 2021","16613","","test_microapi_gamedetails","","","","micro-api新版游戏详情/游戏专区新闻","
+	新版游戏详情/游戏专区新闻 两个接口
+	:param conf_getCookie: profile登录接口cookie
+	:param get_allparam_gamelist: 获取的接口参数
+	:return:
+	"
+"passed","Thu Apr 29 14:10:08 CST 2021","Thu Apr 29 14:10:09 CST 2021","611","","test_microapi_gamedetails","","","","micro-api获取游戏中心游戏列表","
+	获取游戏中心游戏列表
+	:param conf_getCookie: profile登录接口cookie
+	:param get_param_gamelist: 获取的接口参数
+	:return:
+	"

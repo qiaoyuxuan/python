@@ -1,12 +1,12 @@
 {
-  "uid" : "d28f95c5df340b31",
+  "uid" : "28b8186117f8d1e5",
   "name" : "profile用户信息接口",
   "fullName" : "test_profile#test_userInfo",
   "historyId" : "9b38f30d17c943993c06c4766fe5ae05",
   "time" : {
-    "start" : 1619593112987,
-    "stop" : 1619593113621,
-    "duration" : 634
+    "start" : 1619686187011,
+    "stop" : 1619686187897,
+    "duration" : 886
   },
   "description" : "\n\tprofile用户信息接口\n\t:param conf_getCookie:登录接口返回的cookie\n\t:param get_param_info:fixture返回，profile用户信息接口的入参（yaml文件）\n\t",
   "descriptionHtml" : "<pre><code>profile用户信息接口\n:param conf_getCookie:登录接口返回的cookie\n:param get_param_info:fixture返回，profile用户信息接口的入参（yaml文件）\n</code></pre>\n",
@@ -16,8 +16,8 @@
   "beforeStages" : [ {
     "name" : "get_param_login",
     "time" : {
-      "start" : 1619593111294,
-      "stop" : 1619593111294,
+      "start" : 1619686186338,
+      "stop" : 1619686186338,
       "duration" : 0
     },
     "status" : "passed",
@@ -26,29 +26,14 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
-  }, {
-    "name" : "get_param_info",
-    "time" : {
-      "start" : 1619593112987,
-      "stop" : 1619593112987,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   }, {
     "name" : "conf_getCookie",
     "time" : {
-      "start" : 1619593111294,
-      "stop" : 1619593112987,
-      "duration" : 1693
+      "start" : 1619686186338,
+      "stop" : 1619686187010,
+      "duration" : 672
     },
     "status" : "passed",
     "steps" : [ ],
@@ -56,8 +41,23 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_param_info",
+    "time" : {
+      "start" : 1619686187010,
+      "stop" : 1619686187010,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -68,7 +68,7 @@
     "value" : "UPC3079"
   }, {
     "name" : "thread",
-    "value" : "18276-MainThread"
+    "value" : "19088-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -98,6 +98,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d28f95c5df340b31.json",
+  "source" : "28b8186117f8d1e5.json",
   "parameterValues" : [ "{'url': 'https://profile.gtarcade.com/api/user/info', 'header': {'Content-Type': 'application/x-www-form-urlencoded', 'Cookie': '$cookie'}, 'expect': {'status': 0, 'msg': 'Success'}}", "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
 }

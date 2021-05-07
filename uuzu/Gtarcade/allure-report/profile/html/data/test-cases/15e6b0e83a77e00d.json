@@ -1,21 +1,36 @@
 {
-  "uid" : "21d70095a817c1fe",
+  "uid" : "15e6b0e83a77e00d",
   "name" : "profile登录接口",
   "fullName" : "test_profile#test_login",
   "historyId" : "ea9a7af6a2558b7bb18f61003512295e",
   "time" : {
-    "start" : 1619593111290,
-    "stop" : 1619593111290,
-    "duration" : 0
+    "start" : 1619686186335,
+    "stop" : 1619686186336,
+    "duration" : 1
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "conf_getCookie",
+    "time" : {
+      "start" : 1619686184469,
+      "stop" : 1619686186334,
+      "duration" : 1865
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
     "name" : "get_param_login",
     "time" : {
-      "start" : 1619593109446,
-      "stop" : 1619593109446,
+      "start" : 1619686184469,
+      "stop" : 1619686184469,
       "duration" : 0
     },
     "status" : "passed",
@@ -24,23 +39,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
-  }, {
-    "name" : "conf_getCookie",
-    "time" : {
-      "start" : 1619593109447,
-      "stop" : 1619593111288,
-      "duration" : 1841
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -51,7 +51,7 @@
     "value" : "UPC3079"
   }, {
     "name" : "thread",
-    "value" : "18276-MainThread"
+    "value" : "19088-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -78,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "21d70095a817c1fe.json",
+  "source" : "15e6b0e83a77e00d.json",
   "parameterValues" : [ "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
 }
