@@ -126,7 +126,7 @@ def get_sign(data_sign, mobile):
 # get_sign(data['data'], 'android')
 
 
-def reg_name(username, num):
+def reg_name(username):
 	'''
 	根据传入的用户名格式，生成新用户名
 	:param username: 用户名
@@ -134,9 +134,9 @@ def reg_name(username, num):
 	:return: 返回生成的用户名
 	'''
 	name_list = []
-	for i in range(1, num):
-		name_list.append(username.replace('1', str(i)))  # 替换username中的数字部分，生成200个用户名
+	for i in range(11, 20):
+		name_list.append(username.replace('1', str(i)))  # 替换username中的数字部分，生成多个用户名
 	return name_list
 
 
-# print(reg_name(username='testapp_1@sina.com', num=3))
+# print(reg_name(username='testapp_1@sina.com'))

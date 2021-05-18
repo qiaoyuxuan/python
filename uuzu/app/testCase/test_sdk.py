@@ -20,7 +20,7 @@ request = method.Requests()
 def test_sdk_register_200():
 	get_param = operationFile.read_Yaml(filedir='testData', filename='register_sign.yml')  # 获取接口参数
 	list_name = []
-	list_name = sign.reg_name(username=get_param['data']['username'],num=3)  # 获取所有待注册的用户名
+	list_name = sign.reg_name(username=get_param['data']['username'])  # 获取所有待注册的用户名
 	'''
 	循环注册200个用户，每次循环后需重置用户名、重置密码、删除sign，才能将字符串再次加密为新的sign并赋值给sign
 	'''
@@ -30,7 +30,6 @@ def test_sdk_register_200():
 		get_param['data']['password'] = '111111'      # 重设密码（因为第一次循环后密码被加密）
 		get_param['data']['sign'] = sign.get_sign(get_param['data'], 'android')  # 赋值加密后的sign值
 		# print(get_param['data']['username'])
-		# print(get_param['data']['sign'])
 
 		response = request.post(url=get_param['url'], headers=get_param['headers'], data=get_param['data'])
 		print(response.json())
