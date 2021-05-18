@@ -21,7 +21,7 @@ def get_filePath(filedir, filename):
 	url = os.path.dirname(os.path.dirname(__file__))  # 获取目录的上一级
 	return os.path.join(url, filedir, filename)  # 连接指定目录和文件夹名称
 
-# print(get_filePath(filedir='testData',filename='register_sign.yml'))
+# print(get_filePath(filedir='testData',filename='sdk_register.yml'))
 
 
 def read_Yaml(filedir, filename):
@@ -33,6 +33,6 @@ def read_Yaml(filedir, filename):
 		return yaml.safe_load(f)
 
 
-# print(read_Yaml(filedir='testData',filename='register_sign.yml'))
+# print(read_Yaml(filedir='testData',filename='sdk_register.yml'))
 
 

@@ -1,0 +1,12 @@
+# sdk登录接口入参
+url: https://sdk.gtarcade.com/sdk/v6/login
+data:
+  app_id: GGus3TVCKHpN
+  device_id: a0b4dd78919cc2ba
+  channel_id: 0
+  language: zh_cn
+  username: wetest_1@sina.com
+  password: 111111
+  ts: 1617256328
+expect:
+  desc: '成功'

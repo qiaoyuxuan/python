@@ -55,18 +55,18 @@ def key_join(body):
 	return string[0:-1]  # 返回到倒数第二位，即去掉最后的&
 
 
-def login_sign(mobile):
+def get_login_sign(data_sign,mobile):
 	'''
 	登录接口的sign签名生成方法
 	登录yapi：http://yapi.uuzu.com/project/2083/interface/api/44623
 	:param mobile:手机类型，传入ios或android
 	:return:返回加密后的sign
 	'''
-	get_yaml = operationFile.read_Yaml(filedir='testData', filename='login_sign.yml')  # 读取待加密的数据
-	if get_yaml['ts'] == '$time':  # 如果ts=$time，则修改待加密数据中ts为当前时间戳，否则就直接取该时间戳
-		get_yaml['ts'] = int(time.time())
-	get_yaml['password'] = md5.get_md5(get_yaml['password'])  # 密码进行md5加密
-	get_key_sort = key_sort(get_yaml)  # 调用排序方法，返回根据key首字母排序后的dict
+	# get_yaml = operationFile.read_Yaml(filedir='testData', filename='sdk_login.yml')  # 读取待加密的数据
+	if data_sign['ts'] == '$time':  # 如果ts=$time，则修改待加密数据中ts为当前时间戳，否则就直接取该时间戳
+		data_sign['ts'] = int(time.time())
+	data_sign['password'] = md5.get_md5(data_sign['password'])  # 密码进行md5加密
+	get_key_sort = key_sort(data_sign)  # 调用排序方法，返回根据key首字母排序后的dict
 	string = key_join(get_key_sort)  # 调用拼接方法，返回拼接后的字符串
 
 	# 判断手机类型，获取对应的appkey，用作后续加密参数拼接
@@ -81,15 +81,16 @@ def login_sign(mobile):
 	# print('登录sign值拼接后', string_join_app)
 
 	# md5加密拼接好的字符串
-	sign = md5.get_md5(string_join_app)
-	# print("登录的sign值:", sign)
-	return sign
+	sign_login = md5.get_md5(string_join_app)
+	print("登录的sign值:", sign_login)
+	return sign_login
+
+# data = get_reg_yaml = operationFile.read_Yaml(filedir='testData', filename='sdk_register.yml')
+# # print(data)
+# get_login_sign(data['data'], 'android')
 
 
-# login_sign('android')
-
-
-def get_sign(data_sign, mobile):
+def get_reg_sign(data_sign, mobile):
 	'''
 	排序和拼接注册接口的sign参数
 	yapi：http://yapi.uuzu.com/project/2083/interface/api/44616
@@ -121,22 +122,24 @@ def get_sign(data_sign, mobile):
 	return sign_reg
 
 
-# data = get_reg_yaml = operationFile.read_Yaml(filedir='testData', filename='register_sign.yml')
+# data = get_reg_yaml = operationFile.read_Yaml(filedir='testData', filename='sdk_register.yml')
 # print(data)
 # get_sign(data['data'], 'android')
 
 
-def reg_name(username):
+def reg_name(username, range_start, range_end):
 	'''
 	根据传入的用户名格式，生成新用户名
 	:param username: 用户名
-	:param 需要注册的个数
-	:return: 返回生成的用户名
+	:param range_start：用户名中数字部分的起始数字
+	:param range_end：用户名中数字部分的截止数字
+	:return: 返回一个list，存放重生成的用户名
 	'''
 	name_list = []
-	for i in range(11, 20):
+	for i in range(range_start, range_end):
 		name_list.append(username.replace('1', str(i)))  # 替换username中的数字部分，生成多个用户名
 	return name_list
 
 
-# print(reg_name(username='testapp_1@sina.com'))
+# print(reg_name(username='testapp_1@sina.com', range_start=30, range_end=150))
+#
