@@ -1,0 +1,17 @@
+# app注册接口
+url: https://sdk.gtarcade.com/sdk/v6/register
+headers:
+  Content-Type: application/x-www-form-urlencoded
+data:
+  app_id: $app_id
+  channel_id: 0
+  device_id: ff756ca5ae1ee453
+  language: zh_cn
+  ts: 1621232842
+  username: testappa1@sina.com
+  password: 111111
+  captcha: ''
+  captcha_key: ''
+  type: 2
+expect:
+  desc: '成功'

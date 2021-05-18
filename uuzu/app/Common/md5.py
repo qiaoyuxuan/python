@@ -21,4 +21,4 @@ def get_md5(string):
 	return sign.hexdigest()  # 获取密文，hexdigest点不出来，需要手动输入
 
 
-print(get_md5('loginTs=1618318177&nickname=&token=5ae3027f4b755395472aa0c9332de5a2&username=353920114@qq.common&uuid=1596092549336910522297673z1QO9g&qD@7HetV6'))
+

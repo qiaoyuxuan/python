@@ -1,12 +1,12 @@
 {
-  "uid" : "15e6b0e83a77e00d",
+  "uid" : "bb3178369d85f8f3",
   "name" : "profile登录接口",
   "fullName" : "test_profile#test_login",
   "historyId" : "ea9a7af6a2558b7bb18f61003512295e",
   "time" : {
-    "start" : 1619686186335,
-    "stop" : 1619686186336,
-    "duration" : 1
+    "start" : 1621239501895,
+    "stop" : 1621239501895,
+    "duration" : 0
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "conf_getCookie",
     "time" : {
-      "start" : 1619686184469,
-      "stop" : 1619686186334,
-      "duration" : 1865
+      "start" : 1621239499911,
+      "stop" : 1621239501894,
+      "duration" : 1983
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "get_param_login",
     "time" : {
-      "start" : 1619686184469,
-      "stop" : 1619686184469,
+      "start" : 1621239499911,
+      "stop" : 1621239499911,
       "duration" : 0
     },
     "status" : "passed",
@@ -51,7 +51,7 @@
     "value" : "UPC3079"
   }, {
     "name" : "thread",
-    "value" : "19088-MainThread"
+    "value" : "19692-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -78,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "15e6b0e83a77e00d.json",
+  "source" : "bb3178369d85f8f3.json",
   "parameterValues" : [ "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
 }

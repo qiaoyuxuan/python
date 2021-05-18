@@ -7,16 +7,32 @@
 操作文件
 '''
 
-import yaml
-from uuzu.app.Common import get_path  # 获取文件路径的模块
+import yaml, os
 
 
-def read_Yaml(dirname):
+
+def get_filePath(filedir, filename):
+	'''
+	获取指定文件路径
+	:param filedir: 文件目录
+	:param filename: 文件名称
+	:return: 指定文件路径
+	'''
+	url = os.path.dirname(os.path.dirname(__file__))  # 获取目录的上一级
+	return os.path.join(url, filedir, filename)  # 连接指定目录和文件夹名称
+
+# print(get_filePath(filedir='testData',filename='register_sign.yml'))
+
+
+def read_Yaml(filedir, filename):
 	'''
 	读取file文件夹下的login_sign.yaml文件数据，并返回一个dict
 	:return:
 	'''
-	with open(get_path.get_dir(dirname), 'r', encoding='utf-8') as f:
+	with open(file=get_filePath(filedir=filedir, filename=filename), mode='r', encoding='utf-8') as f:
 		return yaml.safe_load(f)
 
-print(read_Yaml('app/testData/login_sign.yaml'))
+
+# print(read_Yaml(filedir='testData',filename='register_sign.yml'))
+
+

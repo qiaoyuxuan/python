@@ -29,7 +29,7 @@ def test_userInfo(conf_getCookie, get_param_info):
 	:param get_param_info:fixture返回，profile用户信息接口的入参（yaml文件）
 	'''
 	get_param_info['header']['Cookie'] = conf_getCookie  # cookie赋值
-	# print(get_param_info['header']['Cookie'])
+	# print(type(get_param_info))
 	response = obj_request.post(url=get_param_info['url'],
 	                            headers=get_param_info['header'])
 
@@ -43,6 +43,6 @@ if __name__ == '__main__':
 		['-s', '-v', '--lf', 'test_profile.py', '--alluredir=../allure-report/profile/result', '--clean-alluredir'])
 	import subprocess
 
-	subprocess.call('allure generate ../allure-Report/profile/result/ -o ../allure-Report/profile/html --clean',
-	                shell=True)
-	subprocess.call('allure open -h 127.0.0.1 -p 8089 ../allure-Report/profile/html', shell=True)
+	# subprocess.call('allure generate ../allure-Report/profile/result/ -o ../allure-Report/profile/html --clean',
+	#                 shell=True)
+	# subprocess.call('allure open -h 127.0.0.1 -p 8089 ../allure-Report/profile/html', shell=True)

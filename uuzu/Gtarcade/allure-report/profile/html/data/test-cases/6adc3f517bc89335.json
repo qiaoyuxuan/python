@@ -1,12 +1,12 @@
 {
-  "uid" : "28b8186117f8d1e5",
+  "uid" : "6adc3f517bc89335",
   "name" : "profile用户信息接口",
   "fullName" : "test_profile#test_userInfo",
   "historyId" : "9b38f30d17c943993c06c4766fe5ae05",
   "time" : {
-    "start" : 1619686187011,
-    "stop" : 1619686187897,
-    "duration" : 886
+    "start" : 1621239502567,
+    "stop" : 1621239503204,
+    "duration" : 637
   },
   "description" : "\n\tprofile用户信息接口\n\t:param conf_getCookie:登录接口返回的cookie\n\t:param get_param_info:fixture返回，profile用户信息接口的入参（yaml文件）\n\t",
   "descriptionHtml" : "<pre><code>profile用户信息接口\n:param conf_getCookie:登录接口返回的cookie\n:param get_param_info:fixture返回，profile用户信息接口的入参（yaml文件）\n</code></pre>\n",
@@ -14,10 +14,10 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "get_param_login",
+    "name" : "get_param_info",
     "time" : {
-      "start" : 1619686186338,
-      "stop" : 1619686186338,
+      "start" : 1621239502567,
+      "stop" : 1621239502567,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,9 +31,9 @@
   }, {
     "name" : "conf_getCookie",
     "time" : {
-      "start" : 1619686186338,
-      "stop" : 1619686187010,
-      "duration" : 672
+      "start" : 1621239501899,
+      "stop" : 1621239502567,
+      "duration" : 668
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,10 +44,10 @@
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   }, {
-    "name" : "get_param_info",
+    "name" : "get_param_login",
     "time" : {
-      "start" : 1619686187010,
-      "stop" : 1619686187010,
+      "start" : 1621239501899,
+      "stop" : 1621239501899,
       "duration" : 0
     },
     "status" : "passed",
@@ -68,7 +68,7 @@
     "value" : "UPC3079"
   }, {
     "name" : "thread",
-    "value" : "19088-MainThread"
+    "value" : "19692-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -98,6 +98,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "28b8186117f8d1e5.json",
+  "source" : "6adc3f517bc89335.json",
   "parameterValues" : [ "{'url': 'https://profile.gtarcade.com/api/user/info', 'header': {'Content-Type': 'application/x-www-form-urlencoded', 'Cookie': '$cookie'}, 'expect': {'status': 0, 'msg': 'Success'}}", "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
 }
