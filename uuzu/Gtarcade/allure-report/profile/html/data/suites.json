@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_profile",
+    "children" : [ {
+      "name" : "profile登录接口",
+      "uid" : "bb3178369d85f8f3",
+      "parentUid" : "f2c516035526282af456f5a1ab3e1cbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621239501895,
+        "stop" : 1621239501895,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
+    }, {
+      "name" : "profile用户信息接口",
+      "uid" : "6adc3f517bc89335",
+      "parentUid" : "f2c516035526282af456f5a1ab3e1cbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621239502567,
+        "stop" : 1621239503204,
+        "duration" : 637
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'url': 'https://profile.gtarcade.com/api/user/info', 'header': {'Content-Type': 'application/x-www-form-urlencoded', 'Cookie': '$cookie'}, 'expect': {'status': 0, 'msg': 'Success'}}", "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
+    } ],
+    "uid" : "f2c516035526282af456f5a1ab3e1cbe"
+  } ]
+}

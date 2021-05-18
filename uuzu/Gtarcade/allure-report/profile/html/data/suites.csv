@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 17 16:18:21 CST 2021","Mon May 17 16:18:21 CST 2021","0","","test_profile","","","","profile登录接口",""
+"passed","Mon May 17 16:18:22 CST 2021","Mon May 17 16:18:23 CST 2021","637","","test_profile","","","","profile用户信息接口","
+	profile用户信息接口
+	:param conf_getCookie:登录接口返回的cookie
+	:param get_param_info:fixture返回，profile用户信息接口的入参（yaml文件）
+	"
