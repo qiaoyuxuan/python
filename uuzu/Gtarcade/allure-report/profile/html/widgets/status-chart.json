@@ -1,20 +1,20 @@
 [ {
-  "uid" : "bb3178369d85f8f3",
-  "name" : "profile登录接口",
+  "uid" : "f532ef342ce024e",
+  "name" : "profile用户信息接口",
   "time" : {
-    "start" : 1621239501895,
-    "stop" : 1621239501895,
-    "duration" : 0
+    "start" : 1621513947058,
+    "stop" : 1621513947709,
+    "duration" : 651
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6adc3f517bc89335",
-  "name" : "profile用户信息接口",
+  "uid" : "adc5f7a762cf05f3",
+  "name" : "profile登录接口",
   "time" : {
-    "start" : 1621239502567,
-    "stop" : 1621239503204,
-    "duration" : 637
+    "start" : 1621513946382,
+    "stop" : 1621513946382,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"

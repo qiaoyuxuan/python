@@ -1,6 +1,6 @@
 # sdk登录接口入参
 url: https://sdk.gtarcade.com/sdk/v6/login
-headers:
+header:
   Content-Type: application/x-www-form-urlencoded
 data:
   app_id: GGus3TVCKHpN

@@ -43,6 +43,6 @@ if __name__ == '__main__':
 		['-s', '-v', '--lf', 'test_profile.py', '--alluredir=../allure-report/profile/result', '--clean-alluredir'])
 	import subprocess
 
-	# subprocess.call('allure generate ../allure-Report/profile/result/ -o ../allure-Report/profile/html --clean',
-	#                 shell=True)
-	# subprocess.call('allure open -h 127.0.0.1 -p 8089 ../allure-Report/profile/html', shell=True)
+	subprocess.call('allure generate ../allure-Report/profile/result/ -o ../allure-Report/profile/html --clean',
+	                shell=True)
+	subprocess.call('allure open -h 127.0.0.1 -p 8089 ../allure-Report/profile/html', shell=True)

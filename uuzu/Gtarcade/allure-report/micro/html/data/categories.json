@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.SSLError: HTTPSConnectionPool(host='micro-api.gtarcade.com', port=443): Max retries exceeded with url: /game-list (Caused by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:833)'),))",
+      "children" : [ {
+        "name" : "micro-api获取游戏中心游戏列表",
+        "uid" : "8393f2e5185596b6",
+        "parentUid" : "0c76255ff76fa959abfae3eec751d6bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621514190881,
+          "stop" : 1621514191155,
+          "duration" : 274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'url': 'https://micro-api.gtarcade.com/game-list', 'header': {'cookie': 'uuzu_UNICKNAME=81797390;uuzu_UAUTH=AmkCM1ZoBjIDa1RdWgZWNVZ1UWYOW1gdAGoAdANyAz4NawE8BTAEalFLVkEIRlI2BBwABw1jAXNSSlVTXBpXRQJmAgpWQwYgAw9UNVpoVnVWJ1FsDmhYPgA2AD8DYgNtDUUBFQUQBGRRS1ZRCGBSfwQcAAcNQQE0UiNVa1w5V3cCcQINVmoGOgMxVG5aP1ZeVmhRcg4%2BWB0AAwATA30DHg1OATYFLQQZUX5WVAg3UkgEAgBuDT0BL1JpVWZcK1dwAloCPlZpBjIDP1RpWg5WdVZoUW8OZlhtABoABgNeAykNRwEFBQAEL1FKVkEIRlIxBB4AAg09ATRSI1VmXDtXZwJqAidWaAYhA2tUSloFVlhWeVFPDmlYFQBkAB8DQwM3DToBHAURBB5RMFZLCGlSQARmAB0NRAFcUjFVSVwMV00CMAIcVmwGAANmVEpaNlY8VjxRJA5zWDEAJAAhA3ADPw14ATUFaAQaUVNWUwhpUkoEFwASDTUBRFI3VUpcIldKAn8CH1Y2BgwDO1RWWilWT1ZVUUwOblgKAD0AGwNwAwoNXgEEBWYEGVFAVmEIaVJIBGEAHQ1rAUdSf1VRXDNXSgJvAhNWNQYYAxFUXVo8Vk9WZlE%2FDj5YdgA2ADYDbgM0DTcBdwUxBCJRdlZkCHdSbAQ8AD0NPQFEUm9VUlxtV0kCbwITVnEGGAMXVDpabA%3D%3D;'}, 'expect': {'msg': 'success'}}", "{'url': 'https://profile.gtarcade.com/passport/login', 'data': {'username': '81797390@qq.com', 'password': 111111}, 'expect': {'status': 1}}" ]
+      } ],
+      "uid" : "0c76255ff76fa959abfae3eec751d6bc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

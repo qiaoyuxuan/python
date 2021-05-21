@@ -20,7 +20,7 @@ request = method.Requests()
 @pytest.mark.skip(reason='跳过该用例')
 def test_sdk_register_200():
 	get_param = operationFile.read_Yaml(filedir='testData', filename='sdk_register.yml')  # 获取接口参数
-	list_name = sign.reg_name(username=get_param['data']['username'], range_start=37, range_end=150)  # 获取所有待注册的用户名
+	list_name = sign.reg_name(username=get_param['data']['username'], range_start=205, range_end=211)  # 获取所有待注册的用户名
 	'''
 	循环注册200个用户，每次循环后需重置用户名、重置密码、删除sign，才能将字符串再次加密为新的sign并赋值给sign
 	'''
@@ -32,28 +32,30 @@ def test_sdk_register_200():
 		# print(get_param['data']['username'])
 
 		response = request.post(url=get_param['url'],
-		                        headers=get_param['headers'],
+		                        headers=get_param['header'],
 		                        data=get_param['data'])
 		print(response.json())
 		assert response.json()['desc'] == get_param['expect']['desc']
-		del get_param['data']['sign']  # 删除sign，每注册完一个需删除，否则sign会被放入加密串，生成是新sign就是错的
+		del get_param['data']['sign']  # 每注册完一个需删除sign值，否则sign会被放入加密串，生成是新sign就是错的
 
 
 @allure.title('sdk登录接口')
 # @pytest.mark.skip(reason='跳过该用例')
-def test_login():
+def test_sdk_login():
 	get_login_param = operationFile.read_Yaml(filedir='testData', filename='sdk_login.yml')
 	# print(get_login_param)
-	list_name = sign.reg_name(username=get_login_param['data']['username'], range_start=1, range_end=29)  # 获取所有待注册的用户名
-	print(list_name)
+	list_name = sign.reg_name(username=get_login_param['data']['username'], range_start=1, range_end=211)  # 获取所有待注册的用户名
 	for i in range(len(list_name)):
-		get_login_param['data']['username'] = list_name[i]
-		get_login_param['data']['sign'] = sign.get_login_sign(data_sign=get_login_param['data'], mobile='android')
-		response = request.post(url=get_param_login['url'],
-		                        headers=get_login_param['headers'],
-		                        data=get_login_param['data'])
-		print(response.json())
-		assert response.json()['desc'] == get_login_param['expect']['desc']
+		get_login_param['data']['username'] = list_name[i]  # 循环赋值用户名
+		get_login_param['data']['password'] = '111111'      # 重设密码（因为第一次循环后密码被加密）
+		get_login_param['data']['sign'] = sign.get_login_sign(data_sign=get_login_param['data'],
+		                                                      mobile='android')  # 赋值加密后的sign值
+		res = request.post(url=get_login_param['url'],
+		                   headers={'Content-Type': 'application/x-www-form-urlencoded'},
+		                   data=get_login_param['data'])
+		print(list_name[i],res.json()['desc'])
+		assert res.json()['desc'] == get_login_param['expect']['desc']
+		del get_login_param['data']['sign']  # 每登录完一次需删除sign值，否则sign会被放入加密串，生成是新sign就是错的
 
 
 if __name__ == '__main__':

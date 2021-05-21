@@ -62,12 +62,18 @@ def get_login_sign(data_sign,mobile):
 	:param mobile:手机类型，传入ios或android
 	:return:返回加密后的sign
 	'''
-	# get_yaml = operationFile.read_Yaml(filedir='testData', filename='sdk_login.yml')  # 读取待加密的数据
-	if data_sign['ts'] == '$time':  # 如果ts=$time，则修改待加密数据中ts为当前时间戳，否则就直接取该时间戳
+
+	# 如果ts=$time，则修改待加密数据中ts为当前时间戳，否则就直接取该时间戳
+	if data_sign['ts'] == '$time':
 		data_sign['ts'] = int(time.time())
-	data_sign['password'] = md5.get_md5(data_sign['password'])  # 密码进行md5加密
-	get_key_sort = key_sort(data_sign)  # 调用排序方法，返回根据key首字母排序后的dict
-	string = key_join(get_key_sort)  # 调用拼接方法，返回拼接后的字符串
+
+	# 密码进行md5加密
+	data_sign['password'] = md5.get_md5(data_sign['password'])
+
+	# 调用排序方法，返回根据key首字母排序后的dict
+	get_key_sort = key_sort(data_sign)
+	# 调用拼接方法，返回拼接后的字符串
+	string = key_join(get_key_sort)
 
 	# 判断手机类型，获取对应的appkey，用作后续加密参数拼接
 	appkey = None
@@ -82,7 +88,7 @@ def get_login_sign(data_sign,mobile):
 
 	# md5加密拼接好的字符串
 	sign_login = md5.get_md5(string_join_app)
-	print("登录的sign值:", sign_login)
+	# print("登录的sign值:", sign_login)
 	return sign_login
 
 # data = get_reg_yaml = operationFile.read_Yaml(filedir='testData', filename='sdk_register.yml')
@@ -99,7 +105,9 @@ def get_reg_sign(data_sign, mobile):
 	:return:加密和拼接后的sign参数
 	'''
 	# print(data_sign)
-	data_sign['password'] = md5.get_md5(data_sign['password'])  # 密码进行md5加密
+
+	# 密码进行md5加密
+	data_sign['password'] = md5.get_md5(data_sign['password'])
 
 	# 判断手机类型，获取对应的app_id和appkey，用作后续加密参数拼接
 	appkey_reg = None
@@ -110,8 +118,10 @@ def get_reg_sign(data_sign, mobile):
 		data_sign['app_id'] = 'GGus3TVCKHpN'
 		appkey_reg = 'tMhjPHHzb8q7NGkWvXT8'
 
-	get_key_sort = key_sort(data_sign)  # 调用排序方法，返回根据key首字母排序后的dict
-	string = key_join(get_key_sort)  # 调用拼接方法，返回拼接后的字符串
+	# 调用排序方法，返回根据key首字母排序后的dict
+	get_key_sort = key_sort(data_sign)
+	# 调用拼接方法，返回拼接后的字符串
+	string = key_join(get_key_sort)
 
 	# 拼接字符串和appkey
 	string_sign = string + appkey_reg

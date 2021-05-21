@@ -1,6 +1,6 @@
 # app注册接口
 url: https://sdk.gtarcade.com/sdk/v6/register
-headers:
+header:
   Content-Type: application/x-www-form-urlencoded
 data:
   app_id: $app_id

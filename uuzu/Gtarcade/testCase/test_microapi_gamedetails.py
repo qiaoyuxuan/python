@@ -55,11 +55,11 @@ def test_gamedetails(conf_getCookie, get_allparam_gamelist):
 
 
 if __name__ == '__main__':
-	pytest.main(['-v', '-s', 'test_microapi_gamedetails.py'])
+
 	pytest.main(
 		['-s', '-v', '--lf', 'test_microapi_gamedetails.py', '--alluredir=../allure-report/micro/result', '--clean-alluredir'])
 	import subprocess
 
-	subprocess.call('allure generate ../allure-Report/micro/result/ -o ../allure-Report/micro/html --clean',
-	                shell=True)
-	subprocess.call('allure open -h 127.0.0.1 -p 8089 ../allure-Report/micro/html', shell=True)
+	# subprocess.call('allure generate ../allure-Report/micro/result/ -o ../allure-Report/micro/html --clean',
+	#                 shell=True)
+	# subprocess.call('allure open -h 127.0.0.1 -p 8089 ../allure-Report/micro/html', shell=True)
